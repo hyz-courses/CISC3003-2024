@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/Users/huangyanzhen/eclipse/CISC3003-2024/CISC3003-EclipseWSJava-dc12673-2024/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3490087267.index
+2516848621.index
+1379626175.index
+3306344929.index
+290869493.index
+4213531555.index

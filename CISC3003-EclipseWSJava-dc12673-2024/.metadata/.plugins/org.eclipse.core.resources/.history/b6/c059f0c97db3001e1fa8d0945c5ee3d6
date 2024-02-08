@@ -1,0 +1,13 @@
+# CISC3003_SugEx01_JavaTutorial01_dc12673
+## Pair Members: Huang Yanzhen, DC126732; Li Ruoxuan, DC027534
+
+## How the java program works:
+
+### 1. Welcome 1~4
+No inputs are needed. These four programs just outputs ``Welcome to Java Programming!`` in different ways.
+
+### 2. Addition
+Takes an input of two integers and output their sum. Only integers are accepted. Sample
+
+### 3. Comparison
+Takes an input of two integers and output the result of the comparison, including ``>``, ``<``, ``>=``, ``<=``, ``=``, and ``!=``. These conditions may overlap with each other. Only integers are accepted.

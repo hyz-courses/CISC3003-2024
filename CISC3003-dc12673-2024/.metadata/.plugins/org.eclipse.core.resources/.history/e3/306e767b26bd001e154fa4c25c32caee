@@ -1,0 +1,249 @@
+body {
+  font-family: "Helvetica", Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  margin: 0;
+  padding: 0;
+  background: #f7f2ed;
+  color: #2e1e11;
+}
+
+header {
+  padding-right:20px;
+  height: 80px;
+  width: 100%;
+  position:fixed;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+
+  /* 291468 - 0e0f21*/
+  /* Blur Effect*/
+  -webkit-backdrop-filter: blur(50px), brightness(0%);
+  backdrop-filter: blur(50px);
+  color: #2e1e11;    
+  box-shadow: 0 4px 6px rgba(0, -20, 20, 0.1); /* 水平偏移、垂直偏移、模糊半径、颜色和透明度 */
+ }
+
+section {
+	align-items:"center";
+   	margin: auto;
+   	padding: 50px 0;
+ }
+ 
+ .section_dark {
+ 	background-color: #817b87;
+ 	color:f7f2ed;
+ }
+ 
+ #home {
+	background-image: url('../images/LargeImages/Cloud.jpg');  
+ }
+
+ nav ul {
+   list-style: none;
+   display: flex;
+  
+   padding: 0;
+ }
+
+ nav li {
+   margin-left: 20px;
+ }
+
+ nav a {
+   color: #2e1e11;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+ }
+
+ nav a:hover {
+   opacity:0.5;
+ }
+
+ #experience-list-container {
+   list-style-type: none;
+ }
+
+ h1,
+ h2 {
+   text-align: center;
+   margin-top: 5px;
+   margin: 50px 0;
+ }
+
+p{
+	font-size: large;
+  	font-weight: 500;
+  	text-indent: 4ch;
+}
+
+.section_content_container {
+ 	max-width: 70%;
+ 	margin: auto;
+ 	
+ }
+
+ ul {
+	list-style: none;
+	font-weight: 400;
+	font-size: large;
+ }
+ 
+ li {
+ 	margin-top: 5px;
+ 	margin-bottom: 5px;
+ }
+
+ img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+   margin: 0 auto;
+ }
+ .mini_icon{
+ 	display: block;
+ 	width: 10px;
+ 	height: 10px;
+ }
+ 
+ /* Blogs*/
+.blog_header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.blog_title {
+	font-size: 20;
+	font-weight: 600;
+}
+.blog_time {
+	color: #beb9bc;		/* Slightly lighter than main.*/
+}
+
+.blog_description {
+	margin-bottom: 15px;
+}
+ 
+.image_wrapper{
+ 	display:grid;
+ 	grid-template-columns:repeat(3,1fr);
+ 	gap: 10px;
+ 	grid-auto-rows:minmax(100px, auto);
+ 	margin-bottom: 20px;
+ }
+
+ .blog_image_container img {
+ 	width: 100%;
+ 	height: 100%;
+ 	aspect-ratio: 1/1;
+ 	object-fit: cover;
+ 	border-radius: 10px;
+ }
+ 
+ .blog_divider {
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ }
+
+
+ #logo {
+   width: 50px;
+   height: 50px;
+   border-radius: 10px;
+ }
+
+ .container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ #list-container{
+   list-style:none;
+ }
+
+ /* ARK Logos image array*/
+.image-queue {
+  width: 100%;
+  overflow:scroll;
+  scroll-behavior: smooth;
+}
+
+/* This referes to the list item of ARK Logos.*/
+#demo-img{
+  /* Basic Size settings*/
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  /* Forbids dragging*/
+  -webkit-user-drag: none;
+  /* Radius & Shadows*/
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px #000000";
+  
+}
+
+.image-wrapper {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+}
+
+footer {
+  padding-top: 20px;
+  opacity: 0.5;
+  height: 100px;
+  background: rgb(14, 3, 32);
+}
+.footer-note{
+  font-size: 14px;
+  color: white;
+}
+
+@media all and (max-width:800px){
+  /* #tot-title{
+    display:none;
+  } */
+	header{
+		padding-left:20px;
+		justify-content:space-between;
+	 }
+	
+	#big-logo{
+		width: 300px;
+		height: 300px;
+	 }
+	
+	#navigation-buttons{
+	   display:none;
+	 }
+	
+	 main {
+	padding: 0 20px; /* adds 20 pixels of padding to the left and right sides */
+	}
+	  footer {
+		padding: 0 20px; /* adds 20 pixels of padding to the left and right sides */
+	}
+	
+	
+	#uses-list-container{
+	  padding-left:0;
+	}
+
+}
+
+@media all and (min-width:890px){
+  #nav-button{
+    display:none;
+  }
+}

@@ -1,0 +1,329 @@
+<doctype! HTML>
+<html>
+
+  <!-- Head -->
+  <head>
+    <title>Huang Yanzhen</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <script src="./global.js"></script>
+
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <!-- Body -->
+  <body>
+    <header>
+        <!-- Logo and Title -->
+        <div class="header_logo_container">
+            <!-- Logo-->
+            <img id="logo" src="../images/DesignIcons/Summer.png"/>
+
+            <!-- Title -->
+            <h2 id="tot-title" style="text-indent: 1ch">Huang Yanzhen</h2>
+        </div>
+
+        <!-- Navigation Buttons-->
+        <nav>
+            <ul id="navigation-buttons">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#values">Values</a></li>
+                <li><a href="#aspirations">Aspirations</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#contacts">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Navigation Button to extend.-->
+        <img
+	        class="icon"
+	        style="width: 50px; height: 50px;"
+	        src="../images//Icons/More_light.png"
+	        id="nav-button"
+        />
+
+    </header>
+
+    <!-- Main Webpage Body-->
+    <main>
+		<!-- Home -->
+		<section id="home">
+			<br/><br/><br/><br/>
+			<div class="section_content_container">
+				<img 
+					src="../images/LargeImages/Cloud.jpg"
+					style="border-radius:20px;"
+				/>
+				<h1>Huang Yanzhen</h1>
+				<p>
+					It is my sincere desire to contribute to your esteemed company as an intern. I assure you
+					that I will dedicate myself wholeheartedly to my role and strive to provide the highest level of
+					service possible.
+				</p>
+			</div>
+		</section>
+		
+		<!-- Intro -->
+		<section id="about-me" class="section_dark">
+		    <img
+		     class="icon"
+		     style="width: 50px; height: 50px; padding-bottom: 0"
+		     src="../images//Icons/Intro_dark.png"
+		    />
+		    <h2 style="margin-top: 5px">About Me</h2>
+		         
+			<div class="section_content_container">
+				<p>
+					It is my sincere desire to contribute to your esteemed company as an intern. I assure you
+					that I will dedicate myself wholeheartedly to my role and strive to provide the highest level of
+					service possible.
+				</p>
+				<br/>
+				
+				<h3>My Skills</h3>
+					<ul>
+						<li>
+					    	Object Oriented Languages: Java, C++.
+					  	</li>
+					  	<li>
+					    	Python programming for multiple purposes, e.g. Natural Language Processing.
+					  	</li>
+					  	<li>
+					    	Web Programming Scripts: HTML, CSS and JavaScript.
+					  	</li>
+					  	<li>
+					    	Relational database design, normalization & implementation with SQL.
+					  	</li>
+					 	 <li>
+					     	Version Control (Git): GitHub and GitLab (with Git bash, GitHub Desktop & SourceTree).
+					  	</li>
+					</ul>
+					
+				<h3> My Works </h3>
+					<div>
+						<h3>Co-Programmer & Art Designer for ARK ALL since May, 2022.</h3>
+					</div>
+			</div>
+			</section>
+		
+		     <!-- My Values and Beliefs -->
+		<section id="values">
+			<img
+			  class="icon"
+			  style="width: 50px; height: 50px; padding-bottom: 0"
+			  src="../images/Icons/Comment_light.png"
+			/>
+			<h2 style="margin-top: 5px">My Values and Beliefs</h2>
+			<div class="section_content_container">
+
+			</div>
+		</section>
+		
+		<!-- My Career Aspirations -->
+		<section id="aspirations" class="section_dark">
+			<img
+			  class="icon"
+			  style="width: 50px; height: 50px; padding-bottom: 0"
+			  src="../images/Icons/Globe_dark.png"
+			/>
+			<h2 style="margin-top: 5px">My Career Aspirations</h2>
+		
+			<div class="section_content_container">
+				<p>
+					In terms of my career aspirations, I am deeply passionate about the field of software
+					engineering and constantly seek opportunities to expand my knowledge and skills in this
+					domain. I embrace new technologies with enthusiasm and approach challenges fearlessly. My
+					dedication to learning is evident in my meticulous study habits, where I strive to grasp
+					concepts comprehensively and dive into details without hesitation. I consistently hold myself
+					to high standards, ensuring that my work is well-structured and delivered with precision. These
+					qualities serve as the bedrock for my potential achievements.
+				</p>
+				<p>
+					 Beyond my professional pursuits, I place great value on fostering meaningful connections
+					 with friends, teammates, and organizations. I take pleasure in supporting and assisting my
+					 friends in their times of need, and I dedicate a significant portion of my free time to
+					 maintaining these relationships. Collaborative work comes naturally to me, as demonstrated by
+					 my experience in developing a game as part of a cohesive team of five individuals. During my
+					 first internship, I formed lasting bonds with my colleagues, and we remain in regular contact to
+					 this day.
+				</p>
+				<ul>
+					<li>
+
+					</li>
+				</ul>
+			</div>
+				
+		     </section>
+		
+		<!-- My Interests and Hobbies -->
+		<section id="interests">
+		  <img
+		    class="icon"
+		    style="width: 50px; height: 50px; padding-bottom: 0"
+		    src="../images/Icons/Bubble_light.png"
+		  />
+		  <h2 style="margin-top: 5px">My Interests and Hobbies</h2>
+		
+		</section>
+		
+		<!-- My Blog Posts -->
+		<section id="blogs" class="section_dark">
+			<img
+			  class="icon"
+			  style="width: 50px; height: 50px; padding-bottom: 0"
+			  src="../images/Icons/People_dark.png"
+			/>
+			<h2 style="margin-top: 5px">My Blog Posts</h2>
+		  
+			<div class="section_content_container">
+				<!-- Blog Post 1 -->
+				<div class="blog_content">
+					<div class="blog_header">
+						<span class="blog_title">Me and my friends.</span>
+						<span class="blog_time">2024-1-13</span>
+					</div>
+					<div class="blog_description">
+						<span>
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							These are photos of me and my friends when to Zhuhai
+							during weekends. We first went to Hengqin and ate lunch
+							together, and then we went to Beishan. We had icecreams
+							at Beishan, and we rode bikes together.
+						</span>
+					</div>
+					<div class="image_wrapper">
+						<div class="blog_image_container">
+							<img src="../images/Blog/image1.jpg" />
+						</div>
+						<div class="blog_image_container">
+							<img src="../images/Blog/image2.jpg"/>
+						</div>
+						<div class="blog_image_container">
+							<img src="../images/Blog/image3.jpg" />
+						</div>
+						<div class="blog_image_container">
+							<img src="../images/Blog/image4.jpg" />
+						</div>		
+						<div class="blog_image_container">
+							<img src="../images/Blog/image5.jpg"/>
+						</div>
+						<div class="blog_image_container">
+							<img src="../images/Blog/image6.jpg"/>
+						</div>
+						<div class="blog_image_container">
+							<img src="../images/Blog/image7.jpeg"/>
+						</div>
+						<div class="blog_image_container">
+							<img src="../images/Blog/image8.jpeg"/>
+						</div>
+						<div class="blog_image_container">
+							<img src="../images/Blog/image9.jpeg"/>
+						</div>					  	
+					</div>
+					<div class="blog_dvider">
+						<hr/>
+					</div>
+				</div>
+				
+				<!-- Blog Post 2 -->
+				<div class="blog_content">
+					<div class="blog_header">
+						<span class="blog_title">Cats🐱🐱</span>
+						<span class="blog_time">2024-1-10</span>
+					</div>
+					<div class="blog_description">
+						<span>
+							&nbsp;&nbsp;&nbsp;&nbsp;
+							I'm a cat person, no doubt about it. Cats are just amazing. 
+							Their purrs are my favorite soundtrack. Each one's got its 
+							own personality, some are comedians, others are zen masters. 
+							I love their independence, but those rare cuddles are precious.
+							Watching them hunt, wow, it's like having a mini wildlife documentary 
+							at home. Cats, you've got my heart.
+						</span>
+					</div>
+					<div class="image_wrapper">
+						<div class="blog_image_container">
+							<img src="../images/Blog/cat1.jpg" />
+						</div>
+						<div class="blog_image_container">
+							<img src="../images/Blog/cat2.jpg"/>
+						</div>
+						<div class="blog_image_container">
+							<img src="../images/Blog/cat3.jpg" />
+						</div>					  	
+					</div>
+					<div class="blog_dvider">
+						<hr/>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		
+		<!-- My Contacts -->
+		<section id="contacts">
+			<img
+			    class="icon"
+			    src="../images/Icons/Bubble_light.png"
+			 />
+			<h2 style="margin-top: 5px">My Contacts</h2>
+        	<div class="section_content_container">
+        		<!-- Contact List -->
+        		<div id="contact-list">
+        			<!-- Phone -->
+					<div class="contact_method_block">
+	        			<img 
+	        				class="icon"
+	        				src="../images/Icons/Phone_light.png"
+	        			/>
+	        			<h3 style="text-align:center;">Phone</h3>
+						<div class="contact_detail">
+							<span>62375735</span>
+						</div>
+					</div>
+					<!-- Email -->
+					<div class="contact_method_block">
+	        			<img 
+	        				class="icon"
+	        				src="../images/Icons/Email_light.png"
+	        			/>
+	        			<h3 style="text-align:center;">Email</h3>
+						<div class="contact_detail">
+							<span>dc12673@umac.mo</span>
+						</div>
+					</div>
+					<!-- WeChat -->
+					<div class="contact_method_block">
+	        			<img 
+	        				class="icon"
+	        				src="../images/Icons/Email_light.png"
+	        			/>
+	        			<h3 style="text-align:center;">Email</h3>
+						<div class="contact_detail">
+							<span>dc12673@umac.mo</span>
+						</div>
+					</div>
+        		</div>
+        	</div>
+        </section>
+        
+      </main>
+
+    <footer>
+      <p class="footer-note">Copyright © Huang Yanzhen All rights reserved.</p>
+    </footer>
+     
+
+  </body>
+
+</html>
+</doctype>

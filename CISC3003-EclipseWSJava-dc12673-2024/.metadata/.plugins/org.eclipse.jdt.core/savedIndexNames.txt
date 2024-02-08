@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/Users/huangyanzhen/eclipse/CISC3003-2024/CISC3003-EclipseWSJava-dc12673-2024/.metadata/.plugins/org.eclipse.jdt.core
+2797149334.index
+2383086560.index
+1865797976.index

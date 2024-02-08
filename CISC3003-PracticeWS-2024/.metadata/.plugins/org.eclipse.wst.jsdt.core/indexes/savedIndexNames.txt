@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/Users/huangyanzhen/eclipse/CISC3003-2024/CISC3003-PracticeWS-2024/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1531985601.index
+2520619130.index
+2710449285.index
+4268104879.index
+3859471178.index
+2201988479.index
+1219366003.index
