@@ -1,3 +1,7 @@
 ./java-2023-12
 ./php-2023-12
 *.app
+.project
+.settings
+.mov
+.MOV
