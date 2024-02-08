@@ -11,6 +11,7 @@ Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse
 
 !ENTRY org.eclipse.jface 2 0 2024-01-19 14:46:28.884
 !MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-01-19 14:46:28.885
 !MESSAGE A conflict occurred for ALT+SHIFT+X R:
 Binding(ALT+SHIFT+X R,
 	ParameterizedCommand(Command(org.eclipse.rap.tools.launch.RAPLaunchShortcut.run,Run RAP Application,
