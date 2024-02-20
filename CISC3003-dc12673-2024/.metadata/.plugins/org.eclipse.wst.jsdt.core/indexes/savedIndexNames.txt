@@ -1,3 +1,7 @@
-INDEX VERSION 1.4+/Users/huangyanzhen/eclipse/CISC3003-2024/CISC3003-dc12673-2024/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-3683826967.index
-3578002715.index
+INDEX VERSION 1.4+E:\Courses\CISC3003-2024\CISC3003-dc12673-2024\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1128215592.index
+4018613383.index
+382085696.index
+1590135544.index
+2625038436.index
+398258881.index

@@ -1,0 +1,581 @@
+html {
+	background-color: #454047;
+}
+
+body {
+	font-family: "Helvetica", Arial, sans-serif;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #f7f2ed;
+	color: #2e1e11;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+header {
+	padding-right: 20px;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	/* 291468 - 0e0f21*/
+	/* Blur Effect*/
+
+	-webkit-backdrop-filter: blur(50px), brightness(100%);
+	background-color: #45404768;
+	backdrop-filter: blur(50px);
+	color: #f7f2ed;
+	box-shadow: 0 4px 6px rgba(0, -20, 20, 0.1);
+	/* 水平偏移、垂直偏移、模糊半径、颜色和透明度 */
+}
+
+.header_logo_container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 20px;
+	align-items: center;
+}
+
+.header-logo {
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	margin-right: 15px;
+}
+
+#big-logo {
+	width: 320px;
+	height: auto;
+	aspect-ratio: initial;
+	margin: 0 auto;
+}
+
+#intro-container {
+	justify-content: center;
+}
+
+#intro-name {
+	color: white;
+	text-shadow: #0000006c 0px 0px 10px;
+	font-size: 40px;
+}
+
+section {
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	padding: 50px 0;
+}
+
+.section_dark {
+	background-color: #817b87;
+	color: #f7f2ed;
+}
+
+#home-section-container {
+	justify-content: center;
+	margin-top: 133px;
+	margin-bottom: 133px;
+	max-width: 500px;
+}
+
+#home {
+	background-image: url("../../images/LargeImages/Cafe.png");
+	background-position: center;
+	background-size: cover;
+	height: 100%;
+	box-shadow: inset 0px -100px 100px 0px #272527b7;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	padding: 0;
+	margin-right: 5px;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	color: #f7f2ed;
+	/*2e1e11*/
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	opacity: 0.5;
+}
+
+nav a:hover {
+	opacity: 1;
+}
+
+nav .selected {
+	opacity: 1;
+	text-shadow: rgba(48, 48, 48, 0.904) 1px 0 10px;
+}
+
+/* There's a head section in each page.*/
+
+.head_section {
+	padding-top: 50-px;
+	background-image: url("../../images/LargeImages/Cafe.png");
+
+
+}
+
+.head_section .placeholder {
+	height: 90px;
+}
+
+.in-page-navigator {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 10px 5px;
+	border-radius: 10px;
+	box-shadow: #2e1e115b 1px 0 10px;
+	background-color: #8a807c57;
+	color: white;
+}
+
+.in-page-navigator ul {
+	margin: 0 auto;
+}
+
+.in-page-navigator li {
+	margin: 0 10px;
+	text-align: center;
+}
+
+.in-page-navigator li a {
+	text-align: center;
+	font-weight: 700;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.in-page-navigator li a:hover {
+	color: white;
+	background-color: #2e1e11;
+}
+
+#experience-list-container {
+	list-style-type: none;
+}
+
+h1,
+h2 {
+	text-align: center;
+	margin-top: 5px;
+	margin: 50px 0;
+}
+
+p {
+	font-size: large;
+	font-weight: 500;
+	text-indent: 4ch;
+	line-height: 30px;
+}
+
+.section_content_container {
+	max-width: 70%;
+	margin: auto;
+}
+
+ul {
+	list-style: none;
+	font-weight: 400;
+	font-size: large;
+}
+
+li {
+	margin-top: 5px;
+	margin-bottom: 10px;
+
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	-webkit-user-drag: none;
+}
+
+.icon {
+	width: 50px;
+	height: 50px;
+	padding-bottom: 0;
+	margin: 0 auto;
+}
+
+.mini_icon {
+	display: block;
+	width: 20px;
+	height: 20px;
+}
+
+.substitution_icon {
+	margin-right: 10px;
+}
+
+.button_icon {
+	display: block;
+	width: 30px;
+	height: 30px;
+}
+
+/* About Me*/
+.bisec_block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#download-cv-link {
+	display: block;
+	width: 200px;
+}
+
+#download-cv-button {
+	background-color: #2e1e11;
+	color: #f7f2ed;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: 600;
+	padding: 10px;
+	padding-right: 20px;
+	border-radius: 8px;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 170px;
+}
+
+#download-cv-button:hover {
+	background-color: #594f51;
+	cursor: pointer;
+}
+
+#download-cv-button button_icon {
+	margin-right: 0;
+}
+
+
+
+/* Skills*/
+.skills_icon_and_description {
+	display: flex;
+	align-items: center;
+	margin-top: 5px;
+}
+
+.skills_icon_and_description .mini_icon {
+	margin-right: 10px;
+}
+
+.work_description:hover {
+	opacity: 0.5;
+}
+
+/* Hobbies: Music*/
+.music_item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+div .music_detail {
+	margin-top: 3px;
+	font-size: 15px;
+}
+
+.music_list .icon:hover {
+	opacity: 0.5;
+}
+
+/* Blogs*/
+
+
+.blog_comment_title .mini_icon {
+	margin-left: 5px;
+}
+
+.blog_header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+
+.blog_title {
+	font-size: 20;
+	font-weight: 600;
+}
+
+.blog_time {
+	color: #beb9bc;
+	/* Slightly lighter than main.*/
+}
+
+.blog_description {
+	margin-bottom: 15px;
+}
+
+.image_wrapper {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+	margin-bottom: 20px;
+
+}
+
+
+.blog_image_container img {
+	width: 100%;
+	height: 100%;
+	aspect-ratio: 1/1;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+
+.blog_comment_title {
+	display: flex;
+	align-items: center;
+	margin-top: 5px;
+}
+
+.blog_comment_title span {
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.blog_comment_title .mini_icon {
+	margin-left: 5px;
+}
+
+.blog_divider {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+/* Contacts */
+#contact-list,
+#quote-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+	margin-bottom: 20px;
+}
+
+.contact_method_block,
+.quote_block {
+	justify-content: center;
+}
+
+.contact_method_block,
+.quote_block h3 {
+	text-align: center;
+}
+
+.contact_detail {
+	text-align: center;
+}
+
+
+#alan-kay-quote {
+	color: white;
+	text-shadow: #00000017 0px 0px 10px;
+	font-weight: 700;
+}
+
+#alan-kay-reference {
+	color: white;
+	text-shadow: #0000006c 0px 0px 10px;
+	text-align: end;
+}
+
+#portrait-photo {
+	width: 140px;
+	height: 200px;
+	margin-left: 10px;
+	margin-bottom: 50px;
+}
+
+#list-container {
+	list-style: none;
+}
+
+/* ARK Logos image array*/
+.image-queue {
+	width: 100%;
+	overflow: scroll;
+	scroll-behavior: smooth;
+}
+
+/* This referes to the list item of ARK Logos.*/
+#demo-img {
+	/* Basic Size settings*/
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	/* Forbids dragging*/
+	-webkit-user-drag: none;
+	/* Radius & Shadows*/
+	border-radius: 20px;
+	box-shadow: 2px 2px 10px #000000";
+
+}
+
+.image-wrapper {
+	display: flex;
+	gap: 20px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	white-space: nowrap;
+}
+
+footer {
+	padding-top: 20px;
+	opacity: 0.5;
+	height: 100px;
+	background: rgb(14, 3, 32);
+}
+
+.footer-note {
+	font-size: 14px;
+	color: white;
+}
+
+/* Narrow Window*/
+@media all and (max-width:700px) {
+
+	/* #tot-title{
+    display:none;
+  } */
+	header {
+		justify-content: space-between;
+	}
+
+	#dropdown-nav-button:hover {
+		opacity: 0.5;
+		cursor: pointer;
+	}
+
+	nav ul {
+		display: block;
+	}
+
+	nav li {
+		margin-left: 0px;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	#nav-button:hover {
+		opacity: 0.5;
+		cursor: pointer;
+	}
+
+	#navigation-buttons {
+		display: none;
+	}
+
+	#dropdown-container {
+		position: relative;
+		z-index: 1;
+		display: block;
+	}
+
+	.dropdown-menu {
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+		width: 100%;
+		z-index: 0;
+
+		-webkit-backdrop-filter: blur(50px), brightness(100%);
+		background-color: #454047c7;
+		backdrop-filter: blur(50px);
+		color: #f7f2ed;
+	}
+
+	#download-cv-link {
+		margin: 0 auto;
+	}
+
+	.bisec_block {
+		display: block;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#portrait-photo {
+		margin: 50px auto;
+	}
+
+	#quote-list {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	footer {
+		padding: 0 20px;
+		/* adds 20 pixels of padding to the left and right sides */
+	}
+
+	#uses-list-container {
+		padding-left: 0;
+	}
+
+}
+
+/* Wide Window*/
+@media all and (min-width:700px) {
+
+	#nav-button {
+		display: none;
+	}
+
+
+	#interests .image_wrapper {
+		max-width: 70%;
+		margin: 30px auto;
+	}
+
+	#interests .music_list {
+		max-width: 70%;
+		margin: 30px auto;
+	}
+
+	#blogs .section_content_container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 30px;
+		grid-auto-rows: minmax(100px, auto);
+		margin-bottom: 20px;
+	}
+
+}
