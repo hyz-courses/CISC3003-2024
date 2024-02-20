@@ -169,7 +169,7 @@ nav .selected {
 
 .in-page-navigator li a:hover {
 	color: white;
-	background-color: #2e1e11;
+	background-color: #2e1e1179;
 }
 
 #experience-list-container {
@@ -221,10 +221,26 @@ img {
 	margin: 0 auto;
 }
 
+.middle_icon {
+	display: block;
+	width: auto;
+	height: 50px;
+}
+
 .mini_icon {
 	display: block;
 	width: 20px;
 	height: 20px;
+}
+
+.icon-set {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon-set .middle_icon {
+	margin: 0 10px;
 }
 
 .substitution_icon {
@@ -277,17 +293,17 @@ img {
 
 
 /* Skills*/
-.skills_icon_and_description {
+.icon_and_description {
 	display: flex;
 	align-items: center;
 	margin-top: 5px;
 }
 
-.skills_icon_and_description .mini_icon {
+.icon_and_description .mini_icon {
 	margin-right: 10px;
 }
 
-.work_description:hover {
+.responsive_description:hover {
 	opacity: 0.5;
 }
 
@@ -446,6 +462,11 @@ div .music_detail {
 
 }
 
+/* Content Block*/
+.content_block h3 {
+	text-align: center;
+}
+
 .image-wrapper {
 	display: flex;
 	gap: 20px;
@@ -570,12 +591,26 @@ footer {
 		margin: 30px auto;
 	}
 
-	#blogs .section_content_container {
+	#blogs .section_content_container,
+	#goals .section_content_container,
+	#log .section_content_container {
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 30px;
 		grid-auto-rows: minmax(100px, auto);
 		margin-bottom: 20px;
+	}
+
+	#goals ul,
+	#log ul {
+		margin-left: 0px;
+		padding-left: 0px;
+
+		font-size: 15px;
+	}
+
+	#accomplishments li {
+		font-size: 15px;
 	}
 
 }
