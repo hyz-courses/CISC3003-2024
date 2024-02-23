@@ -1,0 +1,65 @@
+/* Universal Navigator*/
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin-right: 5px;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: #f7f2ed;
+    /*2e1e11*/
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+nav a:hover {
+    opacity: 1;
+}
+
+nav .selected {
+    opacity: 1;
+    text-shadow: rgba(48, 48, 48, 0.904) 1px 0 10px;
+}
+
+/* In-page Navigators*/
+.in-page-navigator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px 5px;
+    border-radius: 10px;
+    box-shadow: #2e1e115b 1px 0 10px;
+    background-color: #514c6e57;
+    color: white;
+    font-size: 15px;
+}
+
+.in-page-navigator ul {
+    margin: 0 auto;
+}
+
+.in-page-navigator li {
+    margin: 0 10px;
+    text-align: center;
+
+}
+
+.in-page-navigator li a {
+    text-align: center;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.in-page-navigator li a:hover {
+    color: white;
+    background-color: #2e1e1179;
+}

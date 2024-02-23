@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="icon"/>
+		<item key="selection" value="img"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="icon"/>
 			<item value="img"/>
+			<item value="icon"/>
 			<item value="nav-button"/>
 			<item value="nav_button"/>
 			<item value="logo"/>
@@ -31,8 +31,8 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="-562"/>
 		<item key="DIALOG_Y_ORIGIN" value="220"/>
-		<item key="DIALOG_WIDTH" value="336"/>
-		<item key="DIALOG_HEIGHT" value="400"/>
-		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		<item key="DIALOG_WIDTH" value="463"/>
+		<item key="DIALOG_HEIGHT" value="511"/>
+		<item key="DIALOG_FONT_NAME" value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|5|0|Microsoft YaHei UI"/>
 	</section>
 </section>

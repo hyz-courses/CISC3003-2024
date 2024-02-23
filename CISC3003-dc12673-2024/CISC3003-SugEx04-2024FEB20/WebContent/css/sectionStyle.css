@@ -1,0 +1,21 @@
+/* Defines Stylesheets for sections*/
+
+/* Normal Section, same for all pages.*/
+section {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 50px 0;
+}
+
+/* Dark Themed Section, may vary by pages.*/
+.section_dark {
+    background-color: #58495c;
+    color: #f7f2ed;
+}
+
+/* Section Content Container*/
+.section_content_container {
+    max-width: 70%;
+    margin: auto;
+}

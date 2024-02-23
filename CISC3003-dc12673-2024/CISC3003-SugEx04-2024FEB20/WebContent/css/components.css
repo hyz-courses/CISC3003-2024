@@ -1,0 +1,97 @@
+/* Stylesheets for Individual Components*/
+
+/*---------------------------- Classes ---------------------------------*/
+
+/* Bisec Block*/
+.bisec_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Icons */
+.icon {
+    width: 50px;
+    height: 50px;
+    padding-bottom: 0;
+    margin: 0 auto;
+}
+
+.middle_icon {
+    display: block;
+    width: auto;
+    height: 50px;
+}
+
+.mini_icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.icon-set {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-set .middle_icon {
+    margin: 0 10px;
+}
+
+.substitution_icon {
+    margin-right: 10px;
+}
+
+.button_icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+/* Icons and Description */
+.icon_and_description {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.icon_and_description .mini_icon {
+    margin-right: 10px;
+}
+
+.responsive_description:hover {
+    opacity: 0.5;
+}
+
+/* Content Block*/
+.content_block h3 {
+    text-align: center;
+}
+
+footer {
+    padding-top: 20px;
+    opacity: 0.5;
+    height: 100px;
+    background: #0e0320;
+}
+
+.footer-note {
+    font-size: 14px;
+    color: white;
+}
+
+/*------------------Unique Components------------------*/
+
+/* Home Section, top of each page containing images.*/
+#home-section-container {
+    justify-content: center;
+    margin-top: 133px;
+    margin-bottom: 133px;
+    max-width: 500px;
+}
+
+/* Experience List */
+#experience-list-container {
+    list-style-type: none;
+}

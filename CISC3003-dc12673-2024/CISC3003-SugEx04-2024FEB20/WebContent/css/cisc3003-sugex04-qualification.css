@@ -1,0 +1,15 @@
+/* Special Header Color*/
+#qualification-header {
+    background-color: #8a5e5b49;
+}
+
+/* Special In-page Navigator Color*/
+#head_section_4 .in-page-navigator {
+    background-color: #8a5e5b85;
+}
+
+/* Special Section Color*/
+#workexp,
+#services {
+    background-color: #8a5e5b;
+}

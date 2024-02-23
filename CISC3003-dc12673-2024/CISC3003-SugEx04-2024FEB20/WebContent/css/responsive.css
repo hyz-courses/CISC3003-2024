@@ -1,0 +1,151 @@
+/* Narrow Window*/
+@media all and (max-width:700px) {
+
+    /* #tot-title{
+    display:none;
+  } */
+    header {
+        justify-content: space-between;
+    }
+
+    #dropdown-nav-button:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+    nav li {
+        margin-left: 0px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #nav-button:hover {
+        opacity: 0.5;
+        cursor: pointer;
+    }
+
+    #navigation-buttons {
+        display: none;
+    }
+
+    #dropdown-container {
+        position: relative;
+        z-index: 1;
+        display: block;
+    }
+
+    .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 100%;
+        z-index: 0;
+
+        -webkit-backdrop-filter: blur(50px), brightness(100%);
+        background-color: #454047c7;
+        backdrop-filter: blur(50px);
+        color: #f7f2ed;
+    }
+
+    .in-page-navigator {
+        display: none;
+    }
+
+    #alan-kay-quote,
+    #alan-kay-reference {
+        max-width: 290px;
+        margin: 0 auto;
+    }
+
+    #download-cv-link {
+        margin: 0 auto;
+    }
+
+    .bisec_block {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #portrait-photo {
+        margin: 50px auto;
+    }
+
+    #quote-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    footer {
+        padding: 0 20px;
+        /* adds 20 pixels of padding to the left and right sides */
+    }
+
+    #uses-list-container {
+        padding-left: 0;
+    }
+
+}
+
+/* Wide Window*/
+@media all and (min-width:700px) {
+
+
+    #tot-title {
+        font-size: 20px;
+    }
+
+    #nav-button {
+        display: none;
+    }
+
+
+    #interests .image_wrapper {
+        max-width: 70%;
+        margin: 30px auto;
+    }
+
+    #interests .music_list {
+        max-width: 70%;
+        margin: 30px auto;
+    }
+
+    #blogs .section_content_container,
+    #goals .section_content_container,
+    #log .section_content_container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        grid-auto-rows: minmax(100px, auto);
+        margin-bottom: 20px;
+    }
+
+    #goals ul,
+    #log ul {
+        margin-left: 0px;
+        padding-left: 0px;
+
+        font-size: 15px;
+    }
+
+    #accomplishments li {
+        font-size: 15px;
+    }
+
+    #workexp li {
+        font-weight: 600;
+    }
+
+    #workexp p,
+    #statement p {
+
+        font-size: 15px;
+    }
+
+}
