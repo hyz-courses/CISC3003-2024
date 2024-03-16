@@ -1,0 +1,182 @@
+body,
+header,
+div,
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", "Arial", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Merriweather', "Times New Roman", serif;
+}
+
+/* Header */
+
+header h1,
+header h2 {
+    color: white;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 36px;
+}
+
+header span {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
+    width: 160px;
+    padding: 9px;
+    border: solid 1px white;
+}
+
+header span a:link,
+header span a:visited {
+    color: white;
+}
+
+header img {
+    filter: grayscale() brightness(0.4);
+    width: 100%;
+    height: auto;
+}
+
+
+.banner--title {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    width: 100%;
+    top: 300px;
+}
+
+
+/* Last Additions */
+article {
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 50px;
+}
+
+.highlight-container-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.highlights h2 {
+    display: block;
+    margin-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+
+.highlights--container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.highlights--media {
+    padding-right: 10px;
+    float: left;
+}
+
+
+.highlights--button {
+    text-decoration: none;
+    color: white;
+    background-color: orange;
+    padding: 5px;
+    float: right;
+}
+
+/* Mosaic */
+.mosaic {
+    /* Let the images within having absolute position.*/
+    position: relative;
+
+}
+
+.mosaic div {
+    position: absolute;
+}
+
+.mosaic-placeholder {
+    height: 1000px;
+    margin-bottom: 50px;
+}
+
+/* Images */
+.mosaic-item.mosaic--b {
+    left: 590px;
+}
+
+.mosaic-item.mosaic--c {
+    left: 590px;
+    top: 200px;
+}
+
+.mosaic-item.mosaic--d {
+    left: 885px;
+}
+
+.mosaic-item.mosaic--e {
+    top: 400px;
+}
+
+.mosaic-item.mosaic--f {
+    top: 400px;
+    left: 295px;
+}
+
+.mosaic-item.mosaic--g {
+    top: 400px;
+    left: 590px;
+}
+
+.mosaic-item.mosaic--h {
+    top: 400px;
+    left: 885px;
+}
+
+.mosaic-item.mosaic--i {
+    top: 800px;
+}
+
+.mosaic-item.mosaic--j {
+    top: 600px;
+    left: 295px;
+}
+
+.mosaic-item.mosaic--k {
+    top: 800px;
+    left: 885px;
+}
+
+footer {
+    clear: both;
+    display: block;
+    font-weight: bold;
+    background: rgb(214, 214, 214);
+    height: 150px;
+    padding: 30px;
+}

@@ -11,4 +11,23 @@
 			<item value="org.eclipse.wst.web.ui"/>
 		</list>
 	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.FileSystem"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.equinox.p2.category"/>
+			<item value="org.eclipse.php.ui.PHP"/>
+			<item value="org.eclipse.debug.ui"/>
+			<item value="org.eclipse.team.ui.importWizards"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="E:\Courses\CISC3003-2024\CISC3003-dc12673-2024\CISC3003-SugEx04-2024FEB20\assets"/>
+			<item value="E:\Courses\CISC3003-2024\CISC3003-dc12673-2024\CISC3003-SugEx04-2024FEB20\images"/>
+			<item value="E:\Courses\CISC3003-2024\CISC3003-dc12673-2024\CISC3003-SugEx04-2024FEB20\WebContent"/>
+		</list>
+	</section>
 </section>

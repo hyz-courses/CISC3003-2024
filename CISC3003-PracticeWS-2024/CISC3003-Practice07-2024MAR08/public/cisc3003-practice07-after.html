@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,width=device-width">
+
+    <!-- Title -->
+    <title>CISC3003 - Practice 07</title>
+
+    <!-- Styles -->
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <!-- JavaScripts-->
+    <!-- Initialize Fake Data-->
+    <script src="js/data.js" type="text/JavaScript"></script>
+    <!-- Initialize Functions -->
+    <script src="js/functions.js" type="text/JavaScript"></script>
+
+</head>
+
+<body>
+    <div class="title">
+        <h1>Shopping Cart</h1>
+    </div>
+    <table class="table-fill">
+        <!-- Table Header -->
+        <thead>
+            <tr>
+                <th colspan="2">Product</th>
+                <th>#</th>
+                <th>Price</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+
+        <!-- Table Body -->
+        <tbody id="table">
+
+            <!-- Product List -->
+            <!-- Should be put here to render table in the correct position. -->
+            <script src="js/cisc3003-practice07.js" charset="utf-8"></script>
+
+            <!-- Tail Part of the Table -->
+
+            <!-- Subtotal -->
+            <tr class="totals">
+                <td colspan="4">Subtotal</td>
+                <td id="subtotal">
+                </td>
+            </tr>
+
+            <!-- Tax -->
+            <tr class="totals">
+                <td colspan="4">Tax</td>
+                <td id='tax'></td>
+            </tr>
+
+            <!-- Shipping -->
+            <tr class="totals">
+                <td colspan="4">Shipping</td>
+                <td id='shipping'></td>
+            </tr>
+
+            <!-- Grand Total -->
+            <tr class="totals focus">
+                <td colspan="4">Grand Total</td>
+                <td id='grand-total'></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Render the tail parts -->
+    <script src="js/functions.js" charset="utf-8"></script>
+</body>
+
+</html>

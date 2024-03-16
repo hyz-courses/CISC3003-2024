@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+
+	<title>RedStore | Ecommerce Website Design</title>
+	<link rel="stylesheet" href="./css/cisc3003-sugEx05.css" />
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+
+	<!-- Font Awesome-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+	<header>
+		<div class="container-home">
+			<div class="navbar">
+				<!-- Logo-->
+				<div id="brand-logo">
+					<img src="./images/logo.png" alt="logo">
+				</div>
+
+				<!-- Menu Bar -->
+				<nav>
+					<ul id="menu-items">
+						<li><a href="./cisc3003-sugEx06.html">Home</a></li>
+						<li><a href="./allProducts.html">Products</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Contact</a></li>
+						<li><a href="">Account</a></li>
+					</ul>
+				</nav>
+
+				<!-- Bag Icon -->
+				<div class="mini-icon" id="bag-icon">
+					<img src="./images/cart.png" alt="cart">
+				</div>
+
+				<!-- Menu Icon-->
+				<div class="mini-icon" id="menu-icon" onclick="menuToggle()">
+					<img src="./images/menu.png" alt="cart">
+				</div>
+			</div>
+
+			<!-- New Style! -->
+			<div id="new-style">
+				<!-- Bisection Block-->
+				<div class="bisec-block">
+					<!-- Descriptions -->
+					<div class="block" id="new-style-description">
+						<h1> Give Your Workout<br> A New Style!</h1>
+						<p>
+							Success isn't always about greatness. It's about consistency. Consistent hard work gains
+							success.
+							Greatness
+							will come.
+						</p>
+						<button class="btn" id="explore-now-btn">
+							Explore Now &#8594;
+						</button>
+					</div>
+
+					<!-- Title Photo -->
+					<div class="block" id="title-photo-container">
+						<img src="./images/image1.png" alt="atheletes" id="title-photo">
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Featured Categories -->
+	<section id="categories">
+		<div class="section-content-container home">
+			<div class="bisec-block">
+				<div class="block">
+					<img src="images/category-1.jpg" alt="Category 1">
+				</div>
+				<div class="block">
+					<img src="images/category-2.jpg" alt="Category 2">
+				</div>
+				<div class="block">
+					<img src="images/category-3.jpg" alt="Category 3">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Featured Products -->
+	<section class="listing" id="products">
+		<div class="section-content-container home">
+			<h2>Featured Products</h2>
+			<div class="bisec-block">
+				<div class="block product">
+					<img src="images/product-1.jpg" alt="product">
+					<h4>Red Printed T-Shirt</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$50.00</p>
+				</div>
+				<div class="block product">
+					<img src="images/product-2.jpg" alt="product">
+					<h4>Red Printed T-Shirt</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$50.00</p>
+				</div>
+				<div class="block product">
+					<img src="images/product-3.jpg" alt="product">
+					<h4>Red Printed T-Shirt</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$50.00</p>
+				</div>
+				<div class="block product">
+					<img src="images/product-4.jpg" alt="product">
+					<h4>Red Printed T-Shirt</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$50.00</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Latest Products -->
+	<section class="listing" id="latest-prod">
+		<div class="section-content-container home">
+			<h2>Latest Products</h2>
+			<div class="bisec-block">
+				<div class="block product">
+					<img src="images/product-5.jpg" alt="product">
+					<h4>Red Printed T-Shirt</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$50.00</p>
+				</div>
+				<div class="block product">
+					<img src="images/product-6.jpg" alt="product">
+					<h4>Red Printed T-Shirt</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$50.00</p>
+				</div>
+				<div class="block product">
+					<img src="images/product-7.jpg" alt="product">
+					<h4>Red Printed T-Shirt</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$50.00</p>
+				</div>
+				<div class="block product">
+					<img src="images/product-8.jpg" alt="product">
+					<h4>Red Printed T-Shirt</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$50.00</p>
+				</div>
+			</div>
+			<div class="bisec-block">
+				<div class="block product">
+					<img src="images/product-9.jpg" alt="product">
+					<h4>Red Printed T-Shirt</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$50.00</p>
+				</div>
+				<div class="block product">
+					<img src="images/product-10.jpg" alt="product">
+					<h4>Red Printed T-Shirt</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$50.00</p>
+				</div>
+				<div class="block product">
+					<img src="images/product-11.jpg" alt="product">
+					<h4>Red Printed T-Shirt</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$50.00</p>
+				</div>
+				<div class="block product">
+					<img src="images/product-12.jpg" alt="product">
+					<h4>Red Printed T-Shirt</h4>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<p>$50.00</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Offer -->
+	<section id="offer">
+		<div class="section-content-container home">
+			<div class="bisec-block">
+				<div class="block" id="offer-brand-image-container">
+					<img src="images/exclusive.png" class="offer-img" alt="miband">
+				</div>
+				<div class="block" id="offer-description">
+					<p>Exclusively Available on RedStore</p>
+					<h1>Smart Band 4</h1>
+					<small>
+						The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3) AMOLED color full-touch display
+						with adjustable brightness, so everything is clear as can be.
+					</small>
+					<br>
+					<a href="" class="btn">Buy Now &#8594;</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Testinomial -->
+	<section id="testinomial">
+		<div class="section-content-container home">
+			<div class="bisec-block">
+				<div class="block" id="testinomial-1">
+					<i class="fa fa-quote-left"></i>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever
+					</p>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<img src="images/user-1.png" alt="user">
+					<h3> Sean Parker </h3>
+				</div>
+				<div class="block" id="testinomial-2">
+					<i class="fa fa-quote-left"></i>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever
+					</p>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<img src="images/user-2.png" alt="user">
+					<h3> Miko Smith</h3>
+				</div>
+				<div class="block" id="testinomial-3">
+					<i class="fa fa-quote-left"></i>
+					<p>
+						Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the industry's standard dummy text ever
+					</p>
+					<div class="rating">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-o"></i>
+					</div>
+					<img src="images/user-3.png" alt="user">
+					<h3> Mabol Joe </h3>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Brands -->
+	<section id="brands">
+		<div class="section-content-container home">
+			<div class="bisec-block">
+				<div class="block">
+					<img src="images/logo-godrej.png" alt="logo">
+				</div>
+				<div class="block">
+					<img src="images/logo-oppo.png" alt="logo">
+				</div>
+				<div class="block">
+					<img src="images/logo-coca-cola.png" alt="logo">
+				</div>
+				<div class="block">
+					<img src="images/logo-paypal.png" alt="logo">
+				</div>
+				<div class="block">
+					<img src="images/logo-philips.png" alt="logo">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer-->
+	<footer>
+		<div class="section-content-container">
+			<div class="bisec-block">
+				<div class="block footer-1">
+					<h3>Download Our App</h3>
+					<p>Download App for Android and iOS mobile phone.</p>
+					<div class="app-logo">
+						<img src="images/play-store.png" alt="Play Store">
+						<img src="images/app-store.png" alt="App Store">
+					</div>
+				</div>
+				<div class="block footer-2">
+					<img src="images/logo-white.png" alt="logo">
+					<p>Our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.
+					</p>
+				</div>
+				<div class="block footer-3">
+					<h3>Useful Links</h3>
+					<ul>
+						<li>Coupons</li>
+						<li>Blog Post</li>
+						<li>Return Policy</li>
+						<li>Join Affiliate</li>
+					</ul>
+				</div>
+				<div class="block footer-4">
+					<h3>Follow us</h3>
+					<ul>
+						<li>Facebook</li>
+						<li>Twitter</li>
+						<li>Instagram</li>
+						<li>Youtube</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr>
+			<p class="copyright">CISC3003 Web Programming - 2024: DC126732 Huang Yanzhen</p>
+		</div>
+	</footer>
+
+	<!-- Script for Menu Toggle -->
+	<script>
+		var menuItems = document.getElementById("menu-items");
+		menuItems.style.maxHeight = "0px";
+
+		function menuToggle() {
+			menuItems.style.maxHeight = menuItems.style.maxHeight == "0px" ? "350px" : "0px";
+		}
+	</script>
+
+	<!-- Add link to all products -->
+	<script>
+		var productCard = document.getElementsByClassName("block product");
+		for (var i = 0; i < productCard.length; i++) {
+			productCard[i].onclick = function () {
+				window.location.href = "productDetails.html";
+			}
+		}
+	</script>
+</body>
+
+</html>

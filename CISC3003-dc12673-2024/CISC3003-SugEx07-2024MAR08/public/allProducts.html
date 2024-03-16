@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+
+    <title>All Products - RedStore</title>
+    <link rel="stylesheet" href="./css/cisc3003-sugEx07.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container-all-products">
+            <div class="navbar">
+                <!-- Logo-->
+                <div id="brand-logo">
+                    <img src="./images/logo.png" alt="logo">
+                </div>
+
+                <!-- Menu Bar -->
+                <nav>
+                    <ul id="menu-items">
+                        <li><a href="./cisc3003-sugEx07.html">Home</a></li>
+                        <li><a href="./allProducts.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="loginSignup.html">Account</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Bag Icon -->
+                <div class="mini-icon" id="bag-icon">
+                    <img src="./images/cart.png" alt="cart">
+                </div>
+
+                <!-- Menu Icon-->
+                <div class="mini-icon" id="menu-icon" onclick="menuToggle()">
+                    <img src="./images/menu.png" alt="cart">
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- All Products -->
+    <section class="listing" id="all-products">
+        <div class="section-content-container">
+
+            <!-- Selector -->
+            <div class="bisec-block selector">
+                <h2> All Products</h2>
+                <select>
+                    <option>Default Sorting</option>
+                    <option>Sort By Price</option>
+                    <option>Sort By Popularity</option>
+                    <option>Sort By Rating</option>
+                    <option>Sort By Sale</option>
+                </select>
+            </div>
+
+            <div class="bisec-block">
+                <div class="block product">
+                    <img src="images/product-1.jpg" alt="product">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="block product">
+                    <img src="images/product-2.jpg" alt="product">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="block product">
+                    <img src="images/product-3.jpg" alt="product">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="block product">
+                    <img src="images/product-4.jpg" alt="product">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+            </div>
+            <div class="bisec-block">
+                <div class="block product">
+                    <img src="images/product-5.jpg" alt="product">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="block product">
+                    <img src="images/product-6.jpg" alt="product">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="block product">
+                    <img src="images/product-7.jpg" alt="product">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="block product">
+                    <img src="images/product-8.jpg" alt="product">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+            </div>
+            <div class="bisec-block">
+                <div class="block product">
+                    <img src="images/product-9.jpg" alt="product">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="block product">
+                    <img src="images/product-10.jpg" alt="product">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="block product">
+                    <img src="images/product-11.jpg" alt="product">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="block product">
+                    <img src="images/product-12.jpg" alt="product">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+            </div>
+
+            <div class="page-btn" id="page-btn">
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>4</span>
+                <span>&#8594;</span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer-->
+    <footer>
+        <div class="section-content-container">
+            <div class="bisec-block">
+                <div class="block footer-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and iOS mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="Play Store">
+                        <img src="images/app-store.png" alt="App Store">
+                    </div>
+                </div>
+                <div class="block footer-2">
+                    <img src="images/logo-white.png" alt="logo">
+                    <p>Our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.
+                    </p>
+                </div>
+                <div class="block footer-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="block footer-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr>
+            <p class="copyright">CISC3003 Web Programming - 2024: DC126732 Huang Yanzhen</p>
+        </div>
+    </footer>
+
+    <!-- Script for Menu Toggle -->
+    <script>
+        var menuItems = document.getElementById("menu-items");
+        menuItems.style.maxHeight = "0px";
+
+        function menuToggle() {
+            menuItems.style.maxHeight = menuItems.style.maxHeight == "0px" ? "350px" : "0px";
+        }
+    </script>
+
+    <!-- Add link to all products -->
+    <script>
+        var productCard = document.getElementsByClassName("block product");
+        for (var i = 0; i < productCard.length; i++) {
+            productCard[i].onclick = function () {
+                window.location.href = "productDetails.html";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

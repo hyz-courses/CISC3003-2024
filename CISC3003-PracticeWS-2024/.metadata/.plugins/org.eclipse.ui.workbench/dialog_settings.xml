@@ -11,21 +11,18 @@
 		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.FileSystem"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
-			<item value="org.eclipse.jst.ejb.ui"/>
-			<item value="org.eclipse.buildship.ui.importwizards"/>
 			<item value="org.eclipse.equinox.p2.category"/>
-			<item value="org.eclipse.jst.j2ee.internal"/>
 			<item value="org.eclipse.php.ui.PHP"/>
-			<item value="org.eclipse.pde.ui.PluginDevelopment"/>
 			<item value="org.eclipse.debug.ui"/>
 			<item value="org.eclipse.team.ui.importWizards"/>
-			<item value="org.eclipse.wst.web.ui"/>
 		</list>
 	</section>
 	<section name="FileSystemImportWizard">
 		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
 		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
 		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\huang\Downloads\cisc3003-practice07-folder"/>
+			<item value="C:\Users\huang\Downloads\CISC3003 Folder for Practice 06-20240301\images"/>
 			<item value="/Users/huangyanzhen/Downloads/Practice 03 Data"/>
 		</list>
 	</section>
@@ -33,5 +30,12 @@
 		<item key="EditorSelectionDialog.STORE_ID_FILE_EXTENSION" value=".html"/>
 		<item key="EditorSelectionDialog.STORE_ID_INTERNAL_EXTERNAL" value="false"/>
 		<item key="EditorSelectionDialog.STORE_ID_DESCR" value="org.eclipse.ui.browser.editor"/>
+	</section>
+	<section name="WorkbenchPreferenceDialog">
+		<item key="DIALOG_X_ORIGIN" value="183"/>
+		<item key="DIALOG_Y_ORIGIN" value="346"/>
+		<item key="DIALOG_WIDTH" value="766"/>
+		<item key="DIALOG_HEIGHT" value="824"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>

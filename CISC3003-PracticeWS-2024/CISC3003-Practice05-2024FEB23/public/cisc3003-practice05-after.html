@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CISC3003: Practice 05</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/cisc3003-practice05.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Share Your Travels</h1>
+        <p>let us know where you've been</p>
+    </header>
+    <main>
+
+        <section class="table-form-section">
+            <p class="table-title">PHOTO DETAILS</p>
+            <form>
+                <table>
+                    <!-- Title -->
+                    <tr>
+                        <td colspan="2">
+                            <div class="input-frame" id="input-title">
+                                <label for="title">Title</label>
+                                <input name="title" placeholder="Give your photo a descriptive name" id="title" />
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Description -->
+                    <tr>
+                        <td colspan="2">
+                            <div class="input-frame" id="input-description">
+                                <label for="description">Description</label>
+                                <textarea name="description"
+                                    placeholder="Adding a rich description will help with search results" rows="5"
+                                    cols="61" id="description"></textarea>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- Bisec Block -->
+                    <tr>
+                        <!-- Continent & Country -->
+                        <td>
+                            <!-- Continent -->
+                            <div class="input-frame">
+                                <label for="continent">Continent</label>
+                                <select name="continent" id="continent">
+                                    <option value="Africa">Africa</option>
+                                    <option value="Asia">Asia</option>
+                                    <option value="Europe">Europe</option>
+                                    <option value="North America">North America</option>
+                                    <option value="South America">South America</option>
+                                    <option value="Oceania">Oceania</option>
+                                    <option value="Antartica">Antartica</option>
+                                </select>
+                            </div>
+
+                            <!-- Country-->
+                            <div class="input-frame">
+                                <label for="country">Country</label>
+                                <select name="country" id="country">
+                                    <option value="Canada">Canada</option>
+                                    <option value="Mexico">Mexico</option>
+                                    <option value="United States">United States</option>
+                                </select>
+                            </div>
+
+                            <!-- City -->
+                            <div class="input-frame">
+                                <label for="city">City</label>
+                                <select name="city" id="city">
+                                    <option value="Calgary">Calgary</option>
+                                    <option value="Montreal">Montreal</option>
+                                    <option value="Vancouver">Vancouver</option>
+                                    <option value="Toronto">Toronto</option>
+                                </select>
+                            </div>
+                        </td>
+
+                        <!-- Copyrights & Creative-Common Types -->
+                        <td>
+                            <!-- Copyrights -->
+                            <div class="input-frame" id="input-copyright">
+                                <fieldset>
+                                    <label>Copyright?</label>
+                                    <div>
+                                        <input type="radio" id="single-copyright-yes" name="single-copyright"
+                                            value="yes" checked />
+                                        <label for="single-copyright-yes">All rights reserved</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="single-copyright-no" name="single-copyright" value="no">
+                                        <label for="single-copyright-no">Creative Commons</label>
+                                    </div>
+                                </fieldset>
+                            </div>
+                            <!-- Creative Common Types -->
+                            <div class="input-frame" id="input-common-types">
+                                <label>Creative Common Types</label>
+                                <fieldset>
+                                    <div>
+                                        <input type="checkbox" id="attribution" name="common-types" />
+                                        <label for="attribution">Attribution</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="noncommercial" name="common-types" />
+                                        <label for="noncommercial">Noncommercial</label>
+                                    </div>
+                                    <div>
+                                        <input type="checkbox" id="no-dirivative" name="multiple-types" />
+                                        <label for="no-dirivative">No Derivative Works</label>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- Accept Software License-->
+                    <tr>
+                        <td colspan="2">
+                            <div class="input-frame" id="input-accept-license">
+                                <div>
+                                    <label for="accept-license"> I accept the software License</label>
+                                    <input type="checkbox" name="accept-license" id="accept-license" />
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <!-- Rates & Dates-->
+                    <tr>
+                        <!-- Rate & Coller Collection-->
+                        <td>
+                            <div class="input-frame" id="input-rate">
+                                <label for="rate">Rate this photo:</label>
+                                <input type="number" min="1" max="5" name="rate" id="rate" />
+                            </div>
+                            <div class="input-frame" id="input-color">
+                                <label for="color">Color Collection:</label>
+                                <input type="color" name="color" id="color">
+                            </div>
+                        </td>
+                        <!-- Date & Time-->
+                        <td id="date-and-time">
+                            <div class="input-frame" id="input-date">
+                                <label for="date">Date Taken:</label>
+                                <input type="date" name="date" id="date">
+                            </div>
+                            <div class="input-frame" id="input-time">
+                                <label for="time">Time Taken:</label>
+                                <input type="time" name="time" id="time">
+                            </div>
+                        </td>
+                    </tr>
+                    <!-- Buttons -->
+                    <tr>
+                        <td colspan="2">
+                            <div class="input-frame" id="buttons">
+                                <input type="submit" value="Submit" class="rounded">
+                                <input type="reset" value="Clear Form" class="rounded">
+                            </div>
+                        </td>
+                    </tr>
+
+                </table>
+            </form>
+        </section>
+    </main>
+
+
+</body>
+
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Details</title>
+    <link rel="stylesheet" href="./css/cisc3003-sugEx05.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container-all-products">
+            <div class="navbar">
+                <!-- Logo-->
+                <div id="brand-logo">
+                    <img src="./images/logo.png" alt="logo">
+                </div>
+
+                <!-- Menu Bar -->
+                <nav>
+                    <ul id="menu-items">
+                        <li><a href="./cisc3003-sugEx06.html">Home</a></li>
+                        <li><a href="./allProducts.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Bag Icon -->
+                <div class="mini-icon" id="bag-icon">
+                    <img src="./images/cart.png" alt="cart">
+                </div>
+
+                <!-- Menu Icon-->
+                <div class="mini-icon" id="menu-icon" onclick="menuToggle()">
+                    <img src="./images/menu.png" alt="cart">
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+
+
+    <!-- Single Product Details -->
+    <section id="single-product-details">
+        <div class="section-content-container single-product">
+            <div class="bisec-block">
+                <!-- Product Image Gallery -->
+                <div class="block left">
+
+                    <!-- Giant Single Image -->
+                    <img src="images/gallery-1.jpg" alt="..." id="product-img">
+
+                    <!-- Small Image Row -->
+                    <div class="small-img-row">
+                        <div class="small-img-col">
+                            <img src="images/gallery-1.jpg" alt="..." class="small-img">
+                        </div>
+
+                        <div class="small-img-col">
+                            <img src="images/gallery-2.jpg" alt="..." class="small-img">
+                        </div>
+
+                        <div class="small-img-col">
+                            <img src="images/gallery-3.jpg" alt="..." class="small-img">
+                        </div>
+
+                        <div class="small-img-col">
+                            <img src="images/gallery-4.jpg" alt="..." class="small-img">
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Product Details-->
+                <div class="block right">
+                    <p>Home / T-Shirt</p>
+                    <h1>Red Printed T-Shirt by HRX</h1>
+                    <h4>$50.00</h4>
+                    <select>
+                        <option>Select Size</option>
+                        <option>XXL</option>
+                        <option>XL</option>
+                        <option>Large</option>
+                        <option>Medium</option>
+                        <option>Small</option>
+                    </select>
+                    <div class="number-button-combination">
+                        <input type="number" value="1" min="0">
+                        <a href="" class="btn">Add to Cart</a>
+                    </div>
+                    <h3>Product Details <i class="fa fa-indent"></i></h3>
+                    <p>
+                        Give your summer wardrobe a style upgrade with the HRX Men's Active T-shirt. Team it with a pair
+                        of shorts for your morning workout or a denims for an evening out with the guys.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products -->
+    <section class="listing" id="related-products">
+        <!-- Title -->
+        <div class="section-content-container title">
+            <h2>Related Products</h2>
+            <p>View More</p>
+        </div>
+
+        <!-- Related Products Gallery -->
+        <div class="section-content-container">
+            <div class="bisec-block">
+                <div class="block-1">
+                    <img src="images/product-1.jpg" alt="product">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="block-2">
+                    <img src="images/product-2.jpg" alt="product">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="block-3">
+                    <img src="images/product-3.jpg" alt="product">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+                <div class="block-4">
+                    <img src="images/product-4.jpg" alt="product">
+                    <h4>Red Printed T-Shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>$50.00</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Footer-->
+    <footer>
+        <div class="section-content-container">
+            <div class="bisec-block">
+                <div class="block footer-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and iOS mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="Play Store">
+                        <img src="images/app-store.png" alt="App Store">
+                    </div>
+                </div>
+                <div class="block footer-2">
+                    <img src="images/logo-white.png" alt="logo">
+                    <p>Our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.
+                    </p>
+                </div>
+                <div class="block footer-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="block footer-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr>
+            <p class="copyright">CISC3003 Web Programming - 2024: DC126732 Huang Yanzhen</p>
+        </div>
+    </footer>
+
+    <!-- Script for Menu Toggle -->
+    <script>
+        var menuItems = document.getElementById("menu-items");
+        menuItems.style.maxHeight = "0px";
+
+        function menuToggle() {
+            menuItems.style.maxHeight = menuItems.style.maxHeight == "0px" ? "350px" : "0px";
+        }
+    </script>
+
+    <!-- Product Gallery -->
+    <script>
+        var productImg = document.getElementById("product-img");
+        var smallImg = document.getElementsByClassName("small-img");
+
+        for (let i = 0; i < smallImg.length; i++) {
+            smallImg[i].onclick = function () {
+                productImg.src = smallImg[i].src;
+            }
+        }
+    </script>
+</body>
+
+</html>
