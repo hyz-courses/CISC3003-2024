@@ -1,0 +1,141 @@
+/*
+    Huang Yanzhen
+*/
+
+html,
+body {
+    background-color: #fbf9f1;
+}
+
+h1 {
+    color: #2d3839;
+}
+
+header {
+    background: #92c7cf;
+    color: #2d3839;
+    /* Above is used for tests.*/
+
+    padding: 10px 15px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    margin-bottom: 15px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    /* max-height: 30px; */
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+a:hover {
+    background-color: #77a6ad;
+}
+
+.hamburger-button {
+    display: none;
+}
+
+.hamburger-button:hover {
+    cursor: pointer;
+}
+
+/* ========== Section Contents ==========*/
+/* Hero */
+.hero .section-content {
+    background-image: url("../images/bg/hero-img2.jpg");
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 300px;
+}
+
+/* ----- Flex Containers ----- */
+.flex-container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.flex-container.bisec-flow {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+}
+
+/* ----- Section Content----- */
+section .section-content {
+    background-color: #a8cd9f;
+    color: #2c4526;
+    /* Above is used for tests.*/
+
+    padding: 10px 20px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+/* ----- Sidebar Content ----- */
+.sidebar .section-content {
+    background-color: #aad7d9;
+    color: #2d3839;
+    display: block;
+    height: 120%;
+    /* float: right; */
+}
+
+/* ========== Text-Img View ==========*/
+#intro-hyz,
+#intro-lrx {
+    grid-gap: 20px;
+}
+
+.flex-container.bisec-flow.text-img {
+    grid-template-columns: 3fr 1fr;
+}
+
+.flex-container.bisec-flow.img-text {
+    grid-template-columns: 1fr 3fr;
+}
+
+.flex-container.bisec-flow.text-img .portrait img,
+.flex-container.bisec-flow.img-text .portrait img {
+    display: block;
+    margin: 0 auto;
+}
+
+.portrait {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.portrait img {
+    max-height: 200px;
+}
+
+/*======Relationships======*/
+.large-img {
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(207, 207, 207);
+    padding: 10px;
+}
