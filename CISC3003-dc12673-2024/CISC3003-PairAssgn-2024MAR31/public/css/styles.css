@@ -138,7 +138,7 @@ a:hover {
     margin: 0 auto;
 }
 
-.flex-container.bisec-flow {
+.bisec-flow {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 10px;
@@ -153,6 +153,7 @@ section .section-content {
     padding: 10px 20px;
     padding-bottom: 15px;
     margin-bottom: 10px;
+    transition: scale 300ms ease;
 }
 
 /* ----- Sidebar Content ----- */

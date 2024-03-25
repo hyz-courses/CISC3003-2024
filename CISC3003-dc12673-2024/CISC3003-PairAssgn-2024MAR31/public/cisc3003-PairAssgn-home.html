@@ -22,7 +22,7 @@
 <body>
     <!-- Header-->
     <header>
-        <div class="header-titles">
+        <div class="header-titles" onclick="toggleView()">
             <h1>Home</h1>
             <h3>About Us</h3>
         </div>
@@ -58,7 +58,7 @@
     </div>
 
     <!-- Main Flow and Side Bar-->
-    <div class="flex-container bisec-flow">
+    <div class="flex-container bisec-flow" id="main-flow-and-sidebar">
         <!-- Main Content FLow -->
         <div class="main-content-flow">
 
@@ -141,28 +141,19 @@
         </div>
 
         <!-- Sidebar Content Flow -->
-        <div class="sidebar-content-flow">
+        <div class="sidebar-content-flow" id="sidebar-home">
 
             <!-- Side Section 1 -->
             <section class="sidebar">
                 <div class="section-content">
                     <h3>
-                        Sidebar Title 1
+                        Story 1
                     </h3>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                        type
-                        and
-                        scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                        leap
-                        into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                        with
-                        the
-                        release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                        publishing
-                        software like Aldus PageMaker including versions of Lorem Ipsum
+                        This photo is taken with Ruoxuan's new phone. It is quite
+                        memorial for us since she'd been complaining about her lagging old phone for about two years. On
+                        that day, she finally made a step and bought her new phone. We as her friends, along with her
+                        boy friend were together and took the photo to test performance of the camera.
                     </p>
                 </div>
             </section>
@@ -171,22 +162,11 @@
             <section class="sidebar">
                 <div class="section-content">
                     <h3>
-                        Sidebar Title 2
+                        Story 2
                     </h3>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                        type
-                        and
-                        scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                        leap
-                        into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                        with
-                        the
-                        release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                        publishing
-                        software like Aldus PageMaker including versions of Lorem Ipsum
+                        This photo is taken in the MINISO store of Zhuhai, where we were celebrating Yanzhen's birthday.
+                        It's been fun playing with those disney character hats and sunglasses.
                     </p>
                 </div>
             </section>
@@ -204,7 +184,16 @@
     <script src="/public/js/navMenu.js"></script>
 
     <!-- Auto Layout -->
-    <script src="/public/js/autoLayout.js"></script>
+    <!-- <script src="/public/js/autoLayout.js"></script> -->
+
+    <script>
+        content = document.querySelector('#main-flow-and-sidebar');
+
+        function toggleView() {
+            content.classList.toggle('bisec-flow');
+        }
+
+    </script>
 </body>
 
 </html>
