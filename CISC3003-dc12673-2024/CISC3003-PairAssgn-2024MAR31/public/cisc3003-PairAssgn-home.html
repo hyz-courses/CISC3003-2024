@@ -2,16 +2,32 @@
 <html>
 
 <head>
+
+    <!-- Basics -->
     <meta charset="UTF-8">
     <title>Home</title>
+
+    <!-- Style Sheets -->
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/responsive.css">
+
+    <!-- Custom Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <!-- Header-->
     <header>
-        <h1>Title</h1>
+        <div class="header-titles">
+            <h1>Home</h1>
+            <h3>About Us</h3>
+        </div>
+
+        <!-- Menu Items-->
         <nav>
             <ul id="menu-items">
                 <li><a href="./cisc3003-PairAssgn-home.html">Home</a></li>
@@ -23,17 +39,20 @@
 
         </nav>
 
+        <!-- Hamburger Button -->
         <div class="hamburger-button" id="hamburger-button" onclick="menuToggle()">
-            <p> 三 </p>
+            <span class="top"></span>
+            <span class="mid"></span>
+            <span class="bottom"></span>
         </div>
 
     </header>
 
     <!-- Hero-->
     <div class="flex-container">
-        <section class="hero home">
+        <section class="hero home hover-float">
             <div class="section-content">
-                <p>Hero</p>
+                <h3>Photo of the friends</h3>
             </div>
         </section>
     </div>
@@ -110,37 +129,15 @@
                         How do we know each other?
                     </h3>
                     <p>
-                        Actually, we are just a part of a group of friends who had developed enormous friendship with
+                        &emsp; Actually, we are just a part of a group of friends who had developed enormous friendship
+                        with
                         the same major through our lives in the University. The individuals within the group either knew
                         each other thorough another friend, or have been taking part together in the same GE class.
                     </p>
-                    <img src="../public/images/life/friends_1.jpg" class="large-img">
+                    <img src="../public/images/life/friends_1.jpg" class="large-img hover-float">
                 </div>
             </section>
 
-            <!-- Section 4 -->
-            <section>
-                <div class="section-content">
-                    <h3>
-                        Section 4 Title
-                    </h3>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the
-                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                        type
-                        and
-                        scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-                        leap
-                        into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
-                        with
-                        the
-                        release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
-                        publishing
-                        software like Aldus PageMaker including versions of Lorem Ipsum
-                    </p>
-                </div>
-            </section>
         </div>
 
         <!-- Sidebar Content Flow -->
@@ -193,6 +190,7 @@
                     </p>
                 </div>
             </section>
+
         </div>
     </div>
 
@@ -202,20 +200,11 @@
         </p>
     </footer>
 
-    <script>
-        var menuItems = document.getElementById("menu-items");
+    <!-- Mobile Nav Menu -->
+    <script src="/public/js/navMenu.js"></script>
 
-        menuItems.style.maxHeight = "0px";
-
-
-        var isMenuOpen = false;
-
-        function menuToggle() {
-            isMenuOpen = !isMenuOpen;
-            menuItems.style.maxHeight = isMenuOpen ? "0px" : "350px";
-        }
-    </script>
-
+    <!-- Auto Layout -->
+    <script src="/public/js/autoLayout.js"></script>
 </body>
 
 </html>

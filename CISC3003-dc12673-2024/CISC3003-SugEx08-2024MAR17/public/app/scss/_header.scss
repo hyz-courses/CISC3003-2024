@@ -1,0 +1,137 @@
+.header {
+
+    // Hamburger button animation
+    &.open {
+
+        .header__toggle {
+            >span:first-child {
+                transform: rotate(45deg);
+            }
+
+            >span:nth-child(2) {
+                opacity: 0;
+            }
+
+            >span:last-child {
+                transform: rotate(-45deg);
+            }
+        }
+    }
+
+    .overlay {
+        display: none;
+        position: fixed;
+        top: 4.375rem;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background: linear-gradient($darkBlue, transparent);
+
+        &.fade-in {
+            display: block;
+        }
+
+        &.fade-out {
+            display: none;
+        }
+    }
+
+    nav {
+        position: relative;
+        background: $white;
+        padding: 24px;
+    }
+
+    &__logo {
+        img {
+            width: 8.8125rem;
+            height: 1.375rem;
+        }
+    }
+
+    &__toggle {
+
+        //Mobile menu
+        >span {
+            display: block;
+            width: 26px;
+            height: 2px;
+            background-color: $darkBlue;
+            transition: all 300ms ease-in-out;
+            transform-origin: 5px 1px;
+
+            &:not(:last-child) {
+                margin-bottom: 3px;
+            }
+        }
+
+
+    }
+
+    &__links {
+        // border: 1px solid red;
+
+
+        a {
+            position: relative;
+            font-size: 0.875rem;
+            text-decoration: none;
+            color: $grayishBlue;
+            transition: color 200ms ease-in-out;
+
+            &:not(:last-child) {
+                margin-right: 32px;
+            }
+
+            &::before {
+                content: "";
+                display: block;
+                position: absolute;
+                height: 5px;
+                background: linear-gradient(to right, $limeGreen, $brightGreen);
+                left: 0;
+                right: 0;
+                bottom: -30px;
+                opacity: 0;
+                transition: opacity 200ms ease-in-out;
+            }
+
+            &:hover {
+                color: $darkBlue;
+
+                &::before {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+
+    &__menu {
+        position: absolute;
+        width: calc(100% - 3rem);
+        left: 50%;
+        transform: translateX(-50%);
+        background: $white;
+        margin-top: 1.5rem;
+        padding: 1.625rem;
+
+        a {
+            display: block;
+            color: $darkBlue;
+            text-decoration: none;
+            padding: 0.625rem;
+            text-align: center;
+        }
+    }
+
+    &__cta {
+        font-size: $font-sm;
+        color: $white;
+        transition: opacity 200ms ease-in-out;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}

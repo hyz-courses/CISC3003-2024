@@ -4,7 +4,9 @@
 
 html,
 body {
+    font-family: "Poppins", sans-serif;
     background-color: #fbf9f1;
+
 }
 
 h1 {
@@ -13,6 +15,11 @@ h1 {
 
 header {
     background: #92c7cf;
+    background-image: url("../images/bg/hero-img2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     color: #2d3839;
     /* Above is used for tests.*/
 
@@ -24,8 +31,16 @@ header {
     justify-content: space-between;
 }
 
+.header-titles h1 {
+    margin-bottom: 0;
+}
+
+.header-titles h3 {
+    margin-top: 0;
+}
+
 nav {
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
 nav ul {
@@ -34,37 +49,87 @@ nav ul {
     /* max-height: 30px; */
 }
 
-a,
-a:visited {
+a {
+    display: inline-block;
     text-decoration: none;
     color: inherit;
     font-weight: bold;
+    font-size: 18px;
     padding: 5px 10px;
     border-radius: 4px;
+    transition: background-color 300ms ease-in-out;
+    transition: transform 300ms ease;
+
+    user-select: none;
 }
 
 a:hover {
-    background-color: #77a6ad;
+    background-color: #2b3b3d37;
+    transform: scale(1.1);
 }
+
+/* ====== Hamburger Button =======*/
 
 .hamburger-button {
     display: none;
+    transition: transform 300ms ease;
 }
 
 .hamburger-button:hover {
     cursor: pointer;
+    transform: scale(1.1);
+}
+
+.hamburger-button span {
+    display: block;
+    background-color: #2d3839;
+    width: 30px;
+    height: 3px;
+    transition: all 300ms ease-in-out;
+    transform-origin: 3px 2px;
+}
+
+.hamburger-button span:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.open .top {
+    transform: rotate(45deg);
+}
+
+.open .mid {
+    opacity: 0;
+}
+
+.open .bottom {
+    transform: rotate(-45deg);
 }
 
 /* ========== Section Contents ==========*/
 /* Hero */
 .hero .section-content {
-    background-image: url("../images/bg/hero-img2.jpg");
+    background-image: url("../images/life/friends_3.JPG");
     /* background-attachment: fixed; */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
-    height: 300px;
+    height: 500px;
+}
+
+.hover-float {
+    transition: transform 300ms ease;
+}
+
+.hover-float:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 6px #00000027;
+    transform: scale(1.02);
+}
+
+.hero.home h3 {
+    color: #fff;
+    user-select: none;
 }
 
 /* ----- Flex Containers ----- */
@@ -127,6 +192,7 @@ section .section-content {
 
 .portrait img {
     max-height: 200px;
+    user-select: none;
 }
 
 /*======Relationships======*/

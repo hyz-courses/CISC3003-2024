@@ -12,6 +12,8 @@
     <!-- Header-->
     <header>
         <h1>Title</h1>
+
+        <!-- Menu Items-->
         <nav>
             <ul id="menu-items">
                 <li><a href="./cisc3003-PairAssgn-home.html">Home</a></li>
@@ -23,8 +25,11 @@
 
         </nav>
 
+        <!-- Hamburger Button -->
         <div class="hamburger-button" id="hamburger-button" onclick="menuToggle()">
-            <p> 三 </p>
+            <span class="top"></span>
+            <span class="mid"></span>
+            <span class="bottom"></span>
         </div>
 
     </header>
@@ -199,19 +204,8 @@
         </p>
     </footer>
 
-    <script>
-        var menuItems = document.getElementById("menu-items");
-
-        menuItems.style.maxHeight = "0px";
-
-
-        var isMenuOpen = false;
-
-        function menuToggle() {
-            isMenuOpen = !isMenuOpen;
-            menuItems.style.maxHeight = isMenuOpen ? "0px" : "350px";
-        }
-    </script>
+    <!-- Mobile Nav Menu -->
+    <script src="/public/js/navMenu.js"></script>
 
 </body>
 
