@@ -1,0 +1,78 @@
+/* Big Logo & Intros stuff.*/
+#big-logo {
+    width: 320px;
+    height: auto;
+    aspect-ratio: initial;
+    margin: 0 auto;
+}
+
+#intro-container {
+    justify-content: center;
+}
+
+#intro-name {
+    color: white;
+    text-shadow: #0000006c 0px 0px 10px;
+    font-size: 40px;
+}
+
+#home {
+    background-image: url("../../images/LargeImages/View.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    box-shadow: inset 0px -100px 100px 0px #1f141f77;
+}
+
+/* Alan Kay Stuff */
+#alan-kay-quote {
+    color: white;
+    text-shadow: #00000017 0px 0px 10px;
+    font-weight: 700;
+}
+
+#alan-kay-reference {
+    color: white;
+    text-shadow: #0000006c 0px 0px 10px;
+    text-align: end;
+}
+
+/* My Portrait Photo*/
+#portrait-photo {
+    width: 140px;
+    height: 200px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+/* Download CV Button*/
+#download-cv-link {
+    display: block;
+    width: 200px;
+}
+
+#download-cv-button {
+    background-color: #1d191f;
+    color: #f7f2ed;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    padding-right: 20px;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 170px;
+}
+
+#download-cv-button:hover {
+    background-color: #594f51;
+    cursor: pointer;
+}
+
+#download-cv-button button_icon {
+    margin-right: 0;
+}

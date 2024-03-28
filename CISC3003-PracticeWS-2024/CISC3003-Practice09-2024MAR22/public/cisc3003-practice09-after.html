@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CISC3003 Practice 09</title>
+    <meta charset="UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="tiled">
+    <header>
+        <h1>Art Filters</h1>
+    </header>
+    <main>
+        <div id="sliderBox">
+            <form>
+                <label>Opacity: </label>
+                <p>
+                    <input type="range" id="sliderOpacity" min="0" max="100" value="100" class="sliders" />
+                    <span id="numOpacity">100</span>%
+                </p>
+                <p>
+                    <label>Saturation: </label>
+                    <input type="range" id="sliderSaturation" min="1" max="300" value="100" class="sliders" />
+                    <span id="numSaturation">100</span>%
+                </p>
+                <p>
+                    <label>Brightness: </label>
+                    <input type="range" id="sliderBrightness" min="0" max="300" value="100" class="sliders" />
+                    <span id="numBrightness">100</span>%
+                </p>
+                <p>
+                    <label>Hue Rotate: </label>
+                    <input type="range" id="sliderHue" min="0" max="360" value="0" class="sliders" />
+                    <span id="numHue">0</span>deg
+                </p>
+                <p>
+                    <label>Grayscale: </label>
+                    <input type="range" id="sliderGray" min="0" max="100" value="0" class="sliders" />
+                    <span id="numGray">0</span>%
+                </p>
+                <p>
+                    <label>Blur: </label>
+                    <input type="range" id="sliderBlur" min="0" max="10" value="0" class="sliders" />
+                    <span id="numBlur">0</span>px
+                </p>
+                <p>
+                    <button id="resetFilters">Reset</button>
+                </p>
+            </form>
+        </div>
+        <figure id="imgManipulated">
+            <img src="images/medium/painting1.jpg">
+            <figcaption>
+                <em>Still Life with Flowers in a Glass Vase</em> <br>
+                Jan Davidsz. de Heem, 1650 - 1683
+            </figcaption>
+        </figure>
+        <div id="thumbBox">
+            <div>
+                <img src="images/small/painting1.jpg" alt="Still Life with Flowers in a Glass Vase"
+                    title="Jan Davidsz. de Heem, 1650 - 1683" />
+            </div>
+            <div>
+                <img src="images/small/painting2.jpg" alt="Portrait of Alida Christina Assink"
+                    title="Jan Adam Kruseman, 1833" />
+            </div>
+            <div>
+                <img src="images/small/painting3.jpg" alt="Self-portrait" title="Vincent van Gogh, 1887" />
+            </div>
+            <div>
+                <img src="images/small/painting4.jpg" alt="William II, Prince of Orange, and his Bride, Mary Stuart"
+                    title="Anthony van Dyck, 1641" />
+            </div>
+            <div>
+                <img src="images/small/painting5.jpg" alt="Milkmaid" title="Johannes Vermeer, c. 1660" />
+            </div>
+        </div>
+    </main>
+
+    <script>
+        /* Internal Values of the image attributes*/
+        /* Writable values used to adjust images*/
+        let attrSet = {
+            opacity: 1,
+            saturation: 1,
+            brightness: 1,
+            hue: 0,
+            grayscale: 0,
+            blurPx: 0
+        }
+
+        /* Read-only values for resetting image attributes.*/
+        let defaultAttrVals = {
+            opacity: 1,
+            saturation: 1,
+            brightness: 1,
+            hue: 0,
+            grayscale: 0,
+            blurPx: 0
+        }
+
+        /* Called every time a change is made by the slide bar.*/
+        function updateUI() {
+            updateNumTags();
+            //updateSlideBars();
+            updateImageFilter();
+        }
+
+        /* Update number in the number tag. */
+        function updateNumTags() {
+            // Reset values in span
+            $('#numOpacity').text(Math.round(100 * attrSet.opacity));
+            $('#numSaturation').text(Math.round(100 * attrSet.saturation));
+            $('#numBrightness').text(Math.round(100 * attrSet.brightness));
+            $('#numHue').text(Math.round(attrSet.hue / 3.6));
+            $('#numGray').text(Math.round(100 * attrSet.grayscale));
+            $('#numBlur').text(attrSet.blurPx);
+        }
+
+        /* Reset slidebar positions. */
+        function resetSlideBars() {
+            // Reset values of the slide bars
+            $('#sliderOpacity').val(attrSet.opacity);
+            $('#sliderSaturation').val(attrSet.saturate);
+            $('#sliderBrightness').val(attrSet.brightness);
+            $('#sliderHue').val(attrSet.hue);
+            $('#sliderGray').val(attrSet.gray);
+            $('#sliderBlur').val(attrSet.blurPx);
+            $('#imgManipulated img').css('opacity', attrSet.opacity);
+        }
+
+        /* Update Image Filter to current values*/
+        function updateImageFilter() {
+            // Update actual filters of image
+            $('#imgManipulated img').css(
+                '-webkit-filter',
+                `
+                  saturate(${attrSet.saturation})
+                  brightness(${attrSet.brightness})
+                  hue-rotate(${attrSet.hue}deg)
+                  grayscale(${attrSet.grayscale})
+                  blur(${attrSet.blurPx}px)
+                `
+            ).css('opacity', attrSet.opacity)
+        }
+
+        /* Reset the image filters to default.*/
+        function setDefaultFilters() {
+            // Reset internal values
+            for (let key in attrSet) {
+                attrSet[key].value = defaultAttrVals[key].value;
+            }
+
+            // Update the slide bars
+            resetSlideBars();
+
+            // Reset actual css filter of the image
+            updateUI();
+        }
+
+
+        /* ======== Slide Bar change events =========*/
+
+        // Opacity
+        $('#sliderOpacity').change(function (e) {
+            attrSet.opacity = e.target.value / 100;
+            updateUI();
+        })
+
+        // Saturation
+        $('#sliderSaturation').change(function (e) {
+            attrSet.saturation = e.target.value / 100;
+            updateUI();
+        })
+
+        // Brightness
+        $('#sliderBrightness').change(function (e) {
+            attrSet.brightness = e.target.value / 100;
+            updateUI();
+        })
+
+        // Hue
+        $('#sliderHue').change(function (e) {
+            attrSet.hue = e.target.value * 3.6;
+            updateUI();
+        })
+
+        // Grayscale
+        $('#sliderGray').change(function (e) {
+            attrSet.grayscale = e.target.value / 100;
+            updateUI();
+        })
+
+        // Blur
+        $('#sliderBlur').change(function (e) {
+            attrSet.blurPx = e.target.value;
+            updateUI();
+        })
+
+        // Reset Button
+        $('#resetFilters').on('click', function (e) {
+            setDefaultFilters();
+        }).hover(function () {
+            $(this).css('cursor', 'pointer');
+        })
+
+        /* ============= Thunbox Images ============ */
+        $('#thumbBox img').on('click', function (e) {
+            // Replace the big image with the thunbox. Use the medium version of the source.
+            $('#imgManipulated img').attr('src', e.target.src.replace('small', 'medium'));
+
+            // Replace the title and description
+            $('#imgManipulated figcaption').html(`<em>${e.target.alt}</em> <br> ${e.target.title}`);
+        }).hover(function (e) {
+            $(this).css('cursor', 'pointer');
+        })
+
+    </script>
+</body>
+
+</html>

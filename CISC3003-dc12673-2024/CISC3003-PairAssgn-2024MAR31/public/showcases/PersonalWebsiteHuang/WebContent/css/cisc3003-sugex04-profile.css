@@ -1,0 +1,109 @@
+/* Special In-page Navigatior Color*/
+#head_section_1 .in-page-navigator {
+    background-color: #8d6073ad;
+}
+
+/*-------------------Components---------------------*/
+/* Blogs*/
+.blog_comment_title .mini_icon {
+    margin-left: 5px;
+}
+
+.blog_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.blog_title {
+    font-size: 20;
+    font-weight: 600;
+}
+
+.blog_time {
+    color: #beb9bc;
+    /* Slightly lighter than main.*/
+}
+
+.blog_description {
+    margin-bottom: 15px;
+}
+
+.image_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-bottom: 20px;
+
+}
+
+.blog_image_container img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.blog_comment_title {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.blog_comment_title span {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.blog_comment_title .mini_icon {
+    margin-left: 5px;
+}
+
+.blog_divider {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Contacts */
+#contact-list,
+#quote-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    margin-bottom: 20px;
+}
+
+.contact_method_block,
+.quote_block {
+    justify-content: center;
+}
+
+.contact_method_block,
+.quote_block h3 {
+    text-align: center;
+}
+
+.contact_detail {
+    text-align: center;
+}
+
+/* Music*/
+.music_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div .music_detail {
+    margin-top: 3px;
+    font-size: 15px;
+}
+
+.music_list .icon:hover {
+    opacity: 0.5;
+}

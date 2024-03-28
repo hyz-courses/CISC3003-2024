@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Details</title>
+    <link rel="stylesheet" href="./css/cisc3003-sugEx07.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container-all-products">
+            <div class="navbar">
+                <!-- Logo-->
+                <div id="brand-logo">
+                    <img src="./images/logo.png" alt="logo">
+                </div>
+
+                <!-- Menu Bar -->
+                <nav>
+                    <ul id="menu-items">
+                        <li><a href="./cisc3003-sugEx07.html">Home</a></li>
+                        <li><a href="./allProducts.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="loginSignup.html">Account</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Bag Icon -->
+                <div class="mini-icon" id="bag-icon">
+                    <img src="./images/cart.png" alt="cart">
+                </div>
+
+                <!-- Menu Icon-->
+                <div class="mini-icon" id="menu-icon" onclick="menuToggle()">
+                    <img src="./images/menu.png" alt="cart">
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Cart Items Details-->
+    <section>
+        <div class="section-content-container cart-page">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/buy-1.jpg" alt="...">
+                            <div>
+                                <p>Red Printed Tshirt</p>
+                                <small>Price: $50.00</small>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$50.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/buy-2.jpg" alt="...">
+                            <div>
+                                <p>Red Printed Tshirt</p>
+                                <small>Price: $75.00</small>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$75.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/buy-3.jpg" alt="...">
+                            <div>
+                                <p>Red Printed Tshirt</p>
+                                <small>Price: $75.00</small>
+                                <a href="">Remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$75.00</td>
+                </tr>
+            </table>
+
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$200.00</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>$35.00</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>$230.00</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer-->
+    <footer>
+        <div class="section-content-container">
+            <div class="bisec-block">
+                <div class="block footer-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and iOS mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="Play Store">
+                        <img src="images/app-store.png" alt="App Store">
+                    </div>
+                </div>
+                <div class="block footer-2">
+                    <img src="images/logo-white.png" alt="logo">
+                    <p>Our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.
+                    </p>
+                </div>
+                <div class="block footer-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="block footer-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr>
+            <p class="copyright">CISC3003 Web Programming - 2024: DC126732 Huang Yanzhen</p>
+        </div>
+    </footer>
+
+    <!-- Script for Menu Toggle -->
+    <script>
+        var menuItems = document.getElementById("menu-items");
+        menuItems.style.maxHeight = "0px";
+
+        function menuToggle() {
+            menuItems.style.maxHeight = menuItems.style.maxHeight == "0px" ? "350px" : "0px";
+        }
+    </script>
+
+</body>
+
+</html>

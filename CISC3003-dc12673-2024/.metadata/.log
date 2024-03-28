@@ -507,3 +507,2084 @@ java.io.FileNotFoundException: E:\Courses\CISC3003-2024\CISC3003-dc12673-2024\.m
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SESSION 2024-03-25 22:59:57.081 -----------------------------------------------
+eclipse.buildId=4.30.0.20231201-1200
+java.version=17.0.10
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.emf.codegen 4 0 2024-03-25 22:59:58.742
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.emf.codegen [568]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jem.beaninfo 4 0 2024-03-25 22:59:58.744
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jem.beaninfo [570]
+  Unresolved requirement: Require-Bundle: org.eclipse.jem.proxy; bundle-version="[2.0.0,3.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jem.proxy; bundle-version="2.1.0.v202101081429"; singleton:="true"
+       org.eclipse.jem.proxy [573]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jem.proxy 4 0 2024-03-25 22:59:58.745
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jem.proxy [573]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.common.annotations.ui 4 0 2024-03-25 22:59:58.745
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.common.annotations.ui [579]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.2.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.common.frameworks 4 0 2024-03-25 22:59:58.746
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.common.frameworks [580]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.common.project.facet.core 4 0 2024-03-25 22:59:58.746
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.common.project.facet.core [581]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.4.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.common.project.facet.ui 4 0 2024-03-25 22:59:58.747
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.common.project.facet.ui [582]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.5.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.common.project.facet.core; bundle-version="[1.13.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.common.project.facet.core; bundle-version="1.13.0.v202308161955"; singleton:="true"
+       org.eclipse.jst.common.project.facet.core [581]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.4.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.common.ui 4 0 2024-03-25 22:59:58.747
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.common.ui [583]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.5.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.j2ee 4 0 2024-03-25 22:59:58.749
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.j2ee [584]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+       org.eclipse.jst.j2ee.core [585]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.common.frameworks [580]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+       org.eclipse.jst.server.core [615]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+       org.eclipse.emf.codegen [568]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.j2ee.core 4 0 2024-03-25 22:59:58.749
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.j2ee.core [585]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+       org.eclipse.jst.common.frameworks [580]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.j2ee.ejb 4 0 2024-03-25 22:59:58.750
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.j2ee.ejb [586]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+       org.eclipse.jst.server.core [615]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.2.800,1.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+       org.eclipse.jst.j2ee [584]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.core [585]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.common.frameworks [580]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+              org.eclipse.emf.codegen [568]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.j2ee.ejb.annotation.model 4 0 2024-03-25 22:59:58.750
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.j2ee.ejb.annotation.model [587]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+       org.eclipse.jst.j2ee.core [585]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.common.frameworks [580]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.ejb; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee.ejb; bundle-version="1.2.0.v202307260438"; singleton:="true"
+       org.eclipse.jst.j2ee.ejb [586]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.2.800,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+              org.eclipse.jst.j2ee [584]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+                     org.eclipse.jst.server.core [615]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+                     org.eclipse.emf.codegen [568]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.j2ee.jca 4 0 2024-03-25 22:59:58.751
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.j2ee.jca [588]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+       org.eclipse.jst.j2ee [584]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.core [585]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.common.frameworks [580]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+              org.eclipse.jst.server.core [615]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+              org.eclipse.emf.codegen [568]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.j2ee.jca.ui 4 0 2024-03-25 22:59:58.751
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.j2ee.jca.ui [589]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+       org.eclipse.jst.j2ee [584]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.core [585]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.common.frameworks [580]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+              org.eclipse.jst.server.core [615]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+              org.eclipse.emf.codegen [568]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.ui; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee.ui; bundle-version="1.2.300.v202307260438"; singleton:="true"
+       org.eclipse.jst.j2ee.ui [591]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.26.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.ejb; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.ejb; bundle-version="1.2.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.ejb [586]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.2.800,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.web; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.web; bundle-version="1.3.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.web [592]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.jca; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.jca; bundle-version="1.2.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.jca [588]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.j2ee.navigator.ui 4 0 2024-03-25 22:59:58.752
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.j2ee.navigator.ui [590]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.ui; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee.ui; bundle-version="1.2.300.v202307260438"; singleton:="true"
+       org.eclipse.jst.j2ee.ui [591]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.26.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.ejb; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.ejb; bundle-version="1.2.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.ejb [586]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.2.800,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+                     org.eclipse.jst.j2ee [584]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                            org.eclipse.jst.j2ee.core [585]
+                              Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                                   org.eclipse.jst.common.frameworks [580]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+                            org.eclipse.jst.server.core [615]
+                              Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+                            org.eclipse.emf.codegen [568]
+                              Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.web; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.web; bundle-version="1.3.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.web [592]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.jca; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.jca; bundle-version="1.2.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.jca [588]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.j2ee.ui 4 0 2024-03-25 22:59:58.752
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.j2ee.ui [591]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.26.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.ejb; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee.ejb; bundle-version="1.2.0.v202307260438"; singleton:="true"
+       org.eclipse.jst.j2ee.ejb [586]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.2.800,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+              org.eclipse.jst.j2ee [584]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.j2ee.core [585]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                            org.eclipse.jst.common.frameworks [580]
+                              Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+                     org.eclipse.jst.server.core [615]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+                     org.eclipse.emf.codegen [568]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.web; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee.web; bundle-version="1.3.0.v202307260438"; singleton:="true"
+       org.eclipse.jst.j2ee.web [592]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.jca; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee.jca; bundle-version="1.2.0.v202307260438"; singleton:="true"
+       org.eclipse.jst.j2ee.jca [588]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.j2ee.web 4 0 2024-03-25 22:59:58.753
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.j2ee.web [592]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+       org.eclipse.jst.server.core [615]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+       org.eclipse.jst.j2ee [584]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.core [585]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.common.frameworks [580]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+              org.eclipse.emf.codegen [568]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.j2ee.webservice 4 0 2024-03-25 22:59:58.753
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.j2ee.webservice [593]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+       org.eclipse.jst.common.frameworks [580]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+       org.eclipse.jst.j2ee [584]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.core [585]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+              org.eclipse.jst.server.core [615]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+              org.eclipse.emf.codegen [568]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.j2ee.webservice.ui 4 0 2024-03-25 22:59:58.754
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.j2ee.webservice.ui [594]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+       org.eclipse.jst.j2ee [584]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.core [585]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.common.frameworks [580]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+              org.eclipse.jst.server.core [615]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+              org.eclipse.emf.codegen [568]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.ui; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee.ui; bundle-version="1.2.300.v202307260438"; singleton:="true"
+       org.eclipse.jst.j2ee.ui [591]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.26.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.ejb; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.ejb; bundle-version="1.2.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.ejb [586]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.2.800,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.web; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.web; bundle-version="1.3.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.web [592]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.jca; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.jca; bundle-version="1.2.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.jca [588]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.jee 4 0 2024-03-25 22:59:58.754
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jee [595]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+       org.eclipse.jst.j2ee [584]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.core [585]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.common.frameworks [580]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+              org.eclipse.jst.server.core [615]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+              org.eclipse.emf.codegen [568]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.jee.web 4 0 2024-03-25 22:59:58.755
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jee.web [596]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+       org.eclipse.jst.common.frameworks [580]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+       org.eclipse.jst.j2ee [584]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.core [585]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+              org.eclipse.jst.server.core [615]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+              org.eclipse.emf.codegen [568]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.jsf.apache.trinidad.tagsupport 4 0 2024-03-25 22:59:58.755
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.apache.trinidad.tagsupport [597]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.common.ui; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.common.ui; bundle-version="1.7.0.v202303190717"; singleton:="true"
+       org.eclipse.jst.jsf.common.ui [600]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.common; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.common; bundle-version="1.6.0.v202303190717"; singleton:="true"
+       org.eclipse.jst.jsf.common [598]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Import-Package: org.eclipse.jst.javaee.web.internal.impl
+           -> Export-Package: org.eclipse.jst.javaee.web.internal.impl; bundle-symbolic-name="org.eclipse.jst.j2ee.core"; bundle-version="1.5.0.v202307260438"; version="0.0.0"; x-internal:="true"
+              org.eclipse.jst.j2ee.core [585]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.common.frameworks [580]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.pagedesigner; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.pagedesigner; bundle-version="1.10.100.v202307262126"; singleton:="true"
+       org.eclipse.jst.pagedesigner [612]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.21.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.common.ui; bundle-version="[1.6.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.jsf.common.ui; bundle-version="1.7.0.v202303190717"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.jsp.ui; bundle-version="[1.3.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.jsp.ui; bundle-version="1.3.600.v202308160453"; singleton:="true"
+              org.eclipse.jst.jsp.ui [610]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.14.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+              org.eclipse.jst.j2ee [584]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+                     org.eclipse.jst.server.core [615]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+                     org.eclipse.emf.codegen [568]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.pagedesigner.jsp.core; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.pagedesigner.jsp.core; bundle-version="1.6.0.v202303190717"; singleton:="true"
+              org.eclipse.jst.pagedesigner.jsp.core [614]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.common; bundle-version="[1.0.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.jsf.common; bundle-version="1.6.0.v202303190717"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.web; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.web; bundle-version="1.3.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.web [592]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.core; bundle-version="1.9.1.v202308300413"; singleton:="true"
+       org.eclipse.jst.jsf.core [601]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.web; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.web; bundle-version="1.3.0.v202307260438"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.jsf.common 4 0 2024-03-25 22:59:58.756
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.common [598]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Import-Package: org.eclipse.jst.javaee.web.internal.impl
+    -> Export-Package: org.eclipse.jst.javaee.web.internal.impl; bundle-symbolic-name="org.eclipse.jst.j2ee.core"; bundle-version="1.5.0.v202307260438"; version="0.0.0"; x-internal:="true"
+       org.eclipse.jst.j2ee.core [585]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.common.frameworks [580]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.jsf.common.ui 4 0 2024-03-25 22:59:58.757
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.common.ui [600]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.2.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.jsf.core 4 0 2024-03-25 22:59:58.757
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.core [601]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.web; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee.web; bundle-version="1.3.0.v202307260438"; singleton:="true"
+       org.eclipse.jst.j2ee.web [592]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+              org.eclipse.jst.server.core [615]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+              org.eclipse.jst.j2ee [584]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.j2ee.core [585]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                            org.eclipse.jst.common.frameworks [580]
+                              Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+                     org.eclipse.emf.codegen [568]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.facesconfig; bundle-version="[1.0.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.facesconfig; bundle-version="1.6.0.v202303190717"; singleton:="true"
+       org.eclipse.jst.jsf.facesconfig [605]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.jsf.facelet.core 4 0 2024-03-25 22:59:58.757
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.facelet.core [603]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.facesconfig; bundle-version="1.0.1"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.facesconfig; bundle-version="1.6.0.v202303190717"; singleton:="true"
+       org.eclipse.jst.jsf.facesconfig [605]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+              org.eclipse.jst.j2ee [584]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.j2ee.core [585]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                            org.eclipse.jst.common.frameworks [580]
+                              Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+                     org.eclipse.jst.server.core [615]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+                     org.eclipse.emf.codegen [568]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.common; bundle-version="1.0.1"; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.common; bundle-version="1.6.0.v202303190717"; singleton:="true"
+       org.eclipse.jst.jsf.common [598]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Import-Package: org.eclipse.jst.javaee.web.internal.impl
+           -> Export-Package: org.eclipse.jst.javaee.web.internal.impl; bundle-symbolic-name="org.eclipse.jst.j2ee.core"; bundle-version="1.5.0.v202307260438"; version="0.0.0"; x-internal:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.core; bundle-version="1.9.1.v202308300413"; singleton:="true"
+       org.eclipse.jst.jsf.core [601]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.web; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.web; bundle-version="1.3.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.web [592]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.facesconfig; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.jsf.facesconfig; bundle-version="1.6.0.v202303190717"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.jsf.facelet.ui 4 0 2024-03-25 22:59:58.758
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.facelet.ui [604]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.facelet.core; bundle-version="1.0.0"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.facelet.core; bundle-version="1.5.0.v202308300413"; singleton:="true"
+       org.eclipse.jst.jsf.facelet.core [603]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core
+           -> Bundle-SymbolicName: org.eclipse.jst.jsf.core; bundle-version="1.9.1.v202308300413"; singleton:="true"
+              org.eclipse.jst.jsf.core [601]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.web; bundle-version="[1.2.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.web; bundle-version="1.3.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.j2ee.web [592]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+                            org.eclipse.jst.server.core [615]
+                              Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+                            org.eclipse.jst.j2ee [584]
+                              Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                              Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                                   org.eclipse.jst.j2ee.core [585]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                                          org.eclipse.jst.common.frameworks [580]
+                                            Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                              Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+                                   org.eclipse.emf.codegen [568]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.facesconfig; bundle-version="[1.0.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.jsf.facesconfig; bundle-version="1.6.0.v202303190717"; singleton:="true"
+                     org.eclipse.jst.jsf.facesconfig [605]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.common; bundle-version="1.0.1"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.common; bundle-version="1.6.0.v202303190717"; singleton:="true"
+       org.eclipse.jst.jsf.common [598]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Import-Package: org.eclipse.jst.javaee.web.internal.impl
+           -> Export-Package: org.eclipse.jst.javaee.web.internal.impl; bundle-symbolic-name="org.eclipse.jst.j2ee.core"; bundle-version="1.5.0.v202307260438"; version="0.0.0"; x-internal:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.ui; bundle-version="1.0.1"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.ui; bundle-version="1.7.0.v202303190717"; singleton:="true"
+       org.eclipse.jst.jsf.ui [608]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.jsf.core; bundle-version="1.9.1.v202308300413"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core; bundle-version="1.0.1"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.core; bundle-version="1.9.1.v202308300413"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.jsf.facesconfig 4 0 2024-03-25 22:59:58.759
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.facesconfig [605]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+       org.eclipse.jst.common.frameworks [580]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+       org.eclipse.jst.j2ee [584]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.core [585]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+              org.eclipse.jst.server.core [615]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+              org.eclipse.emf.codegen [568]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.jsf.facesconfig.ui 4 0 2024-03-25 22:59:58.759
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.facesconfig.ui [606]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.common.ui; bundle-version="[1.6.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.common.ui; bundle-version="1.7.0.v202303190717"; singleton:="true"
+       org.eclipse.jst.jsf.common.ui [600]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.facesconfig; bundle-version="[1.0.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.facesconfig; bundle-version="1.6.0.v202303190717"; singleton:="true"
+       org.eclipse.jst.jsf.facesconfig [605]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.common.frameworks [580]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+              org.eclipse.jst.j2ee [584]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.j2ee.core [585]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+                     org.eclipse.jst.server.core [615]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+                     org.eclipse.emf.codegen [568]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.jsf.standard.tagsupport 4 0 2024-03-25 22:59:58.760
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.standard.tagsupport [607]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.common; bundle-version="[1.0.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.common; bundle-version="1.6.0.v202303190717"; singleton:="true"
+       org.eclipse.jst.jsf.common [598]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Import-Package: org.eclipse.jst.javaee.web.internal.impl
+           -> Export-Package: org.eclipse.jst.javaee.web.internal.impl; bundle-symbolic-name="org.eclipse.jst.j2ee.core"; bundle-version="1.5.0.v202307260438"; version="0.0.0"; x-internal:="true"
+              org.eclipse.jst.j2ee.core [585]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.common.frameworks [580]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.jsf.ui 4 0 2024-03-25 22:59:58.761
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsf.ui [608]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.core; bundle-version="1.9.1.v202308300413"; singleton:="true"
+       org.eclipse.jst.jsf.core [601]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.web; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.web; bundle-version="1.3.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.web [592]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+                     org.eclipse.jst.server.core [615]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+                     org.eclipse.jst.j2ee [584]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                            org.eclipse.jst.j2ee.core [585]
+                              Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                                   org.eclipse.jst.common.frameworks [580]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+                            org.eclipse.emf.codegen [568]
+                              Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.facesconfig; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.jsf.facesconfig; bundle-version="1.6.0.v202303190717"; singleton:="true"
+              org.eclipse.jst.jsf.facesconfig [605]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.jsp.ui 4 0 2024-03-25 22:59:58.762
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.jsp.ui [610]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.14.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.pagedesigner 4 0 2024-03-25 22:59:58.763
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.pagedesigner [612]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.21.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.common.ui; bundle-version="[1.6.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.common.ui; bundle-version="1.7.0.v202303190717"; singleton:="true"
+       org.eclipse.jst.jsf.common.ui [600]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsp.ui; bundle-version="[1.3.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsp.ui; bundle-version="1.3.600.v202308160453"; singleton:="true"
+       org.eclipse.jst.jsp.ui [610]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.14.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+       org.eclipse.jst.j2ee [584]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.core [585]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.common.frameworks [580]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+              org.eclipse.jst.server.core [615]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+              org.eclipse.emf.codegen [568]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.pagedesigner.jsp.core; bundle-version="[1.0.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.pagedesigner.jsp.core; bundle-version="1.6.0.v202303190717"; singleton:="true"
+       org.eclipse.jst.pagedesigner.jsp.core [614]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.common; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.jsf.common; bundle-version="1.6.0.v202303190717"; singleton:="true"
+              org.eclipse.jst.jsf.common [598]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Import-Package: org.eclipse.jst.javaee.web.internal.impl
+                  -> Export-Package: org.eclipse.jst.javaee.web.internal.impl; bundle-symbolic-name="org.eclipse.jst.j2ee.core"; bundle-version="1.5.0.v202307260438"; version="0.0.0"; x-internal:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.web; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee.web; bundle-version="1.3.0.v202307260438"; singleton:="true"
+       org.eclipse.jst.j2ee.web [592]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.pagedesigner.jsf.ui 4 0 2024-03-25 22:59:58.765
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.pagedesigner.jsf.ui [613]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.facesconfig; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.facesconfig; bundle-version="1.6.0.v202303190717"; singleton:="true"
+       org.eclipse.jst.jsf.facesconfig [605]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.common.frameworks [580]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+              org.eclipse.jst.j2ee [584]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.j2ee.core [585]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+                     org.eclipse.jst.server.core [615]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+                     org.eclipse.emf.codegen [568]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.common.ui; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.common.ui; bundle-version="1.7.0.v202303190717"; singleton:="true"
+       org.eclipse.jst.jsf.common.ui [600]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.pagedesigner.jsp.core; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.pagedesigner.jsp.core; bundle-version="1.6.0.v202303190717"; singleton:="true"
+       org.eclipse.jst.pagedesigner.jsp.core [614]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.common; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.jsf.common; bundle-version="1.6.0.v202303190717"; singleton:="true"
+              org.eclipse.jst.jsf.common [598]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Import-Package: org.eclipse.jst.javaee.web.internal.impl
+                  -> Export-Package: org.eclipse.jst.javaee.web.internal.impl; bundle-symbolic-name="org.eclipse.jst.j2ee.core"; bundle-version="1.5.0.v202307260438"; version="0.0.0"; x-internal:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.common; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.common; bundle-version="1.6.0.v202303190717"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.core; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.core; bundle-version="1.9.1.v202308300413"; singleton:="true"
+       org.eclipse.jst.jsf.core [601]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.web; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.web; bundle-version="1.3.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.web [592]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.facesconfig; bundle-version="[1.0.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.jsf.facesconfig; bundle-version="1.6.0.v202303190717"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.pagedesigner; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.pagedesigner; bundle-version="1.10.100.v202307262126"; singleton:="true"
+       org.eclipse.jst.pagedesigner [612]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.pagedesigner.jsp.core 4 0 2024-03-25 22:59:58.765
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.pagedesigner.jsp.core [614]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsf.common; bundle-version="[1.0.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsf.common; bundle-version="1.6.0.v202303190717"; singleton:="true"
+       org.eclipse.jst.jsf.common [598]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Import-Package: org.eclipse.jst.javaee.web.internal.impl
+           -> Export-Package: org.eclipse.jst.javaee.web.internal.impl; bundle-symbolic-name="org.eclipse.jst.j2ee.core"; bundle-version="1.5.0.v202307260438"; version="0.0.0"; x-internal:="true"
+              org.eclipse.jst.j2ee.core [585]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.common.frameworks [580]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.server.core 4 0 2024-03-25 22:59:58.766
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.server.core [615]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.ws 4 0 2024-03-25 22:59:58.767
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws [617]
+  Unresolved requirement: Import-Package: org.eclipse.jst.common.internal.modulecore.util
+    -> Export-Package: org.eclipse.jst.common.internal.modulecore.util; bundle-symbolic-name="org.eclipse.jst.common.frameworks"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-internal:="true"
+       org.eclipse.jst.common.frameworks [580]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+       org.eclipse.jst.j2ee.core [585]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.ejb; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee.ejb; bundle-version="1.2.0.v202307260438"; singleton:="true"
+       org.eclipse.jst.j2ee.ejb [586]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.2.800,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+              org.eclipse.jst.j2ee [584]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.ws.annotations.core 4 0 2024-03-25 22:59:58.767
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.annotations.core [618]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.ws.consumption 4 0 2024-03-25 22:59:58.768
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.consumption [619]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Import-Package: org.eclipse.jst.j2ee.internal.webservice
+    -> Export-Package: org.eclipse.jst.j2ee.internal.webservice; bundle-symbolic-name="org.eclipse.jst.j2ee.webservice.ui"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-friends:="org.eclipse.jst.ws.consumption"
+       org.eclipse.jst.j2ee.webservice.ui [594]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+              org.eclipse.jst.j2ee [584]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.j2ee.core [585]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                            org.eclipse.jst.common.frameworks [580]
+                              Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+                     org.eclipse.jst.server.core [615]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+                     org.eclipse.emf.codegen [568]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.ui; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.ui; bundle-version="1.2.300.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.ui [591]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+  Unresolved requirement: Import-Package: org.eclipse.jst.j2ee.internal.webservice.helper
+    -> Export-Package: org.eclipse.jst.j2ee.internal.webservice.helper; bundle-symbolic-name="org.eclipse.jst.j2ee.webservice"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-friends:="org.eclipse.jst.ws.consumption"
+       org.eclipse.jst.j2ee.webservice [593]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+       org.eclipse.jst.ws [617]
+         Unresolved requirement: Import-Package: org.eclipse.jst.common.internal.modulecore.util
+           -> Export-Package: org.eclipse.jst.common.internal.modulecore.util; bundle-symbolic-name="org.eclipse.jst.common.frameworks"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-internal:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.ws.consumption.ui 4 0 2024-03-25 22:59:58.769
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.consumption.ui [620]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.30.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+       org.eclipse.jst.ws [617]
+         Unresolved requirement: Import-Package: org.eclipse.jst.common.internal.modulecore.util
+           -> Export-Package: org.eclipse.jst.common.internal.modulecore.util; bundle-symbolic-name="org.eclipse.jst.common.frameworks"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-internal:="true"
+              org.eclipse.jst.common.frameworks [580]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.ui; bundle-version="[1.0.100,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.ui; bundle-version="1.1.100.v202308012257"; singleton:="true"
+       org.eclipse.jst.ws.ui [634]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption; bundle-version="1.1.0.v202308010229"; singleton:="true"
+       org.eclipse.jst.ws.consumption [619]
+         Unresolved requirement: Import-Package: org.eclipse.jst.j2ee.internal.webservice
+           -> Export-Package: org.eclipse.jst.j2ee.internal.webservice; bundle-symbolic-name="org.eclipse.jst.j2ee.webservice.ui"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-friends:="org.eclipse.jst.ws.consumption"
+              org.eclipse.jst.j2ee.webservice.ui [594]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+                     org.eclipse.jst.j2ee [584]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                            org.eclipse.jst.j2ee.core [585]
+                              Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+                            org.eclipse.jst.server.core [615]
+                              Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                       Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+                            org.eclipse.emf.codegen [568]
+                              Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.ui; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.ui; bundle-version="1.2.300.v202307260438"; singleton:="true"
+                     org.eclipse.jst.j2ee.ui [591]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+         Unresolved requirement: Import-Package: org.eclipse.jst.j2ee.internal.webservice.helper
+           -> Export-Package: org.eclipse.jst.j2ee.internal.webservice.helper; bundle-symbolic-name="org.eclipse.jst.j2ee.webservice"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-friends:="org.eclipse.jst.ws.consumption"
+              org.eclipse.jst.j2ee.webservice [593]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.ws.creation.ui 4 0 2024-03-25 22:59:58.771
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.creation.ui [621]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+       org.eclipse.jst.j2ee [584]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.core [585]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.common.frameworks [580]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption.ui; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption.ui; bundle-version="1.2.0.v202308010145"; singleton:="true"
+       org.eclipse.jst.ws.consumption.ui [620]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.ui; bundle-version="[1.0.100,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.ui; bundle-version="1.1.100.v202308012257"; singleton:="true"
+       org.eclipse.jst.ws.ui [634]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+              org.eclipse.jst.ws [617]
+                Unresolved requirement: Import-Package: org.eclipse.jst.common.internal.modulecore.util
+                  -> Export-Package: org.eclipse.jst.common.internal.modulecore.util; bundle-symbolic-name="org.eclipse.jst.common.frameworks"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-internal:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.ejb; bundle-version="[1.2.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.ejb; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.j2ee.ejb [586]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.2.800,1.3.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption; bundle-version="1.1.0.v202308010229"; singleton:="true"
+       org.eclipse.jst.ws.consumption [619]
+         Unresolved requirement: Import-Package: org.eclipse.jst.j2ee.internal.webservice
+           -> Export-Package: org.eclipse.jst.j2ee.internal.webservice; bundle-symbolic-name="org.eclipse.jst.j2ee.webservice.ui"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-friends:="org.eclipse.jst.ws.consumption"
+              org.eclipse.jst.j2ee.webservice.ui [594]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.ui; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.ui; bundle-version="1.2.300.v202307260438"; singleton:="true"
+                     org.eclipse.jst.j2ee.ui [591]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+         Unresolved requirement: Import-Package: org.eclipse.jst.j2ee.internal.webservice.helper
+           -> Export-Package: org.eclipse.jst.j2ee.internal.webservice.helper; bundle-symbolic-name="org.eclipse.jst.j2ee.webservice"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-friends:="org.eclipse.jst.ws.consumption"
+              org.eclipse.jst.j2ee.webservice [593]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.ws.cxf.consumption.core 4 0 2024-03-25 22:59:58.772
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.cxf.consumption.core [622]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.cxf.core; bundle-version="0.4.3"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.cxf.core; bundle-version="1.2.0.v202308010145"; singleton:="true"
+       org.eclipse.jst.ws.cxf.core [624]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+              org.eclipse.jst.j2ee [584]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.j2ee.core [585]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                            org.eclipse.jst.common.frameworks [580]
+                              Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.jaxws.core; bundle-version="[1.0.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.jaxws.core; bundle-version="1.1.0.v202308010145"; singleton:="true"
+       org.eclipse.jst.ws.jaxws.core [629]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+       org.eclipse.jst.ws [617]
+         Unresolved requirement: Import-Package: org.eclipse.jst.common.internal.modulecore.util
+           -> Export-Package: org.eclipse.jst.common.internal.modulecore.util; bundle-symbolic-name="org.eclipse.jst.common.frameworks"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-internal:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.ejb; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.ejb; bundle-version="1.2.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.ejb [586]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.2.800,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.ws.cxf.consumption.ui 4 0 2024-03-25 22:59:58.773
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.cxf.consumption.ui [623]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+       org.eclipse.jst.ws [617]
+         Unresolved requirement: Import-Package: org.eclipse.jst.common.internal.modulecore.util
+           -> Export-Package: org.eclipse.jst.common.internal.modulecore.util; bundle-symbolic-name="org.eclipse.jst.common.frameworks"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-internal:="true"
+              org.eclipse.jst.common.frameworks [580]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption.ui; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption.ui; bundle-version="1.2.0.v202308010145"; singleton:="true"
+       org.eclipse.jst.ws.consumption.ui [620]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.30.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.ui; bundle-version="[1.0.100,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.ui; bundle-version="1.1.100.v202308012257"; singleton:="true"
+              org.eclipse.jst.ws.ui [634]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption; bundle-version="1.1.0.v202308010229"; singleton:="true"
+              org.eclipse.jst.ws.consumption [619]
+                Unresolved requirement: Import-Package: org.eclipse.jst.j2ee.internal.webservice
+                  -> Export-Package: org.eclipse.jst.j2ee.internal.webservice; bundle-symbolic-name="org.eclipse.jst.j2ee.webservice.ui"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-friends:="org.eclipse.jst.ws.consumption"
+                     org.eclipse.jst.j2ee.webservice.ui [594]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+                            org.eclipse.jst.j2ee [584]
+                              Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                              Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                                   org.eclipse.jst.j2ee.core [585]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                                       -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                              Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+                                   org.eclipse.jst.server.core [615]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                              Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+                                -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+                                   org.eclipse.emf.codegen [568]
+                                     Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.ui; bundle-version="[1.1.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.j2ee.ui; bundle-version="1.2.300.v202307260438"; singleton:="true"
+                            org.eclipse.jst.j2ee.ui [591]
+                              Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+                                -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+                Unresolved requirement: Import-Package: org.eclipse.jst.j2ee.internal.webservice.helper
+                  -> Export-Package: org.eclipse.jst.j2ee.internal.webservice.helper; bundle-symbolic-name="org.eclipse.jst.j2ee.webservice"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-friends:="org.eclipse.jst.ws.consumption"
+                     org.eclipse.jst.j2ee.webservice [593]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.ws.cxf.core 4 0 2024-03-25 22:59:58.774
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.cxf.core [624]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.5.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+       org.eclipse.jst.j2ee.core [585]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.common.frameworks [580]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+       org.eclipse.jst.ws [617]
+         Unresolved requirement: Import-Package: org.eclipse.jst.common.internal.modulecore.util
+           -> Export-Package: org.eclipse.jst.common.internal.modulecore.util; bundle-symbolic-name="org.eclipse.jst.common.frameworks"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-internal:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.4.0,3.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+       org.eclipse.emf.codegen [568]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+       org.eclipse.jst.j2ee [584]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+              org.eclipse.jst.server.core [615]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.ws.cxf.creation.core 4 0 2024-03-25 22:59:58.775
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.cxf.creation.core [625]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.4.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.304,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+       org.eclipse.jst.ws [617]
+         Unresolved requirement: Import-Package: org.eclipse.jst.common.internal.modulecore.util
+           -> Export-Package: org.eclipse.jst.common.internal.modulecore.util; bundle-symbolic-name="org.eclipse.jst.common.frameworks"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-internal:="true"
+              org.eclipse.jst.common.frameworks [580]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.core [585]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.ejb; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.ejb; bundle-version="1.2.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.ejb [586]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.2.800,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+                     org.eclipse.jst.j2ee [584]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.cxf.core; bundle-version="[1.0.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.cxf.core; bundle-version="1.2.0.v202308010145"; singleton:="true"
+       org.eclipse.jst.ws.cxf.core [624]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.ws.cxf.creation.ui 4 0 2024-03-25 22:59:58.776
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.cxf.creation.ui [626]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.4.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.cxf.core; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.cxf.core; bundle-version="1.2.0.v202308010145"; singleton:="true"
+       org.eclipse.jst.ws.cxf.core [624]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+              org.eclipse.jst.j2ee [584]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.j2ee.core [585]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                            org.eclipse.jst.common.frameworks [580]
+                              Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+                     org.eclipse.jst.server.core [615]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+                     org.eclipse.emf.codegen [568]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.cxf.creation.core; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.cxf.creation.core; bundle-version="1.1.0.v202308010145"
+       org.eclipse.jst.ws.cxf.creation.core [625]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.0.304,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+              org.eclipse.jst.ws [617]
+                Unresolved requirement: Import-Package: org.eclipse.jst.common.internal.modulecore.util
+                  -> Export-Package: org.eclipse.jst.common.internal.modulecore.util; bundle-symbolic-name="org.eclipse.jst.common.frameworks"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-internal:="true"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption.ui; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption.ui; bundle-version="1.2.0.v202308010145"; singleton:="true"
+       org.eclipse.jst.ws.consumption.ui [620]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.30.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.ui; bundle-version="[1.0.100,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.ui; bundle-version="1.1.100.v202308012257"; singleton:="true"
+              org.eclipse.jst.ws.ui [634]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.consumption; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws.consumption; bundle-version="1.1.0.v202308010229"; singleton:="true"
+              org.eclipse.jst.ws.consumption [619]
+                Unresolved requirement: Import-Package: org.eclipse.jst.j2ee.internal.webservice
+                  -> Export-Package: org.eclipse.jst.j2ee.internal.webservice; bundle-symbolic-name="org.eclipse.jst.j2ee.webservice.ui"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-friends:="org.eclipse.jst.ws.consumption"
+                     org.eclipse.jst.j2ee.webservice.ui [594]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.ui; bundle-version="[1.1.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.j2ee.ui; bundle-version="1.2.300.v202307260438"; singleton:="true"
+                            org.eclipse.jst.j2ee.ui [591]
+                              Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.501,1.3.0)"
+                                -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+                Unresolved requirement: Import-Package: org.eclipse.jst.j2ee.internal.webservice.helper
+                  -> Export-Package: org.eclipse.jst.j2ee.internal.webservice.helper; bundle-symbolic-name="org.eclipse.jst.j2ee.webservice"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-friends:="org.eclipse.jst.ws.consumption"
+                     org.eclipse.jst.j2ee.webservice [593]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,1.3.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.ws.cxf.ui 4 0 2024-03-25 22:59:58.777
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.cxf.ui [628]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.4.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws.cxf.core; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws.cxf.core; bundle-version="1.2.0.v202308010145"; singleton:="true"
+       org.eclipse.jst.ws.cxf.core [624]
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.5.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.core [585]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+                     org.eclipse.jst.common.frameworks [580]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+              org.eclipse.jst.ws [617]
+                Unresolved requirement: Import-Package: org.eclipse.jst.common.internal.modulecore.util
+                  -> Export-Package: org.eclipse.jst.common.internal.modulecore.util; bundle-symbolic-name="org.eclipse.jst.common.frameworks"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-internal:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.4.0,3.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+              org.eclipse.emf.codegen [568]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.5.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+              org.eclipse.jst.j2ee [584]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.server.core; bundle-version="[1.0.102,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.server.core; bundle-version="1.2.800.v202308172116"; singleton:="true"
+                     org.eclipse.jst.server.core [615]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+                Unresolved requirement: Require-Bundle: org.eclipse.emf.codegen; bundle-version="[2.2.0,3.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.emf.codegen; bundle-version="2.23.0.v20230211-1150"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.ws.jaxws.core 4 0 2024-03-25 22:59:58.777
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.jaxws.core [629]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.apt.core; bundle-version="[3.3.100,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.ws.jaxws.ui 4 0 2024-03-25 22:59:58.778
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.jaxws.ui [632]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.4.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.jst.ws.ui 4 0 2024-03-25 22:59:58.779
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jst.ws.ui [634]
+  Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.2.0,4.0.0)"
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.ws; bundle-version="[1.1.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.ws; bundle-version="1.1.0.v202308010229"
+       org.eclipse.jst.ws [617]
+         Unresolved requirement: Import-Package: org.eclipse.jst.common.internal.modulecore.util
+           -> Export-Package: org.eclipse.jst.common.internal.modulecore.util; bundle-symbolic-name="org.eclipse.jst.common.frameworks"; bundle-version="1.2.0.v202307260438"; version="0.0.0"; x-internal:="true"
+              org.eclipse.jst.common.frameworks [580]
+                Unresolved requirement: Require-Bundle: org.eclipse.jdt.launching; bundle-version="[3.2.0,4.0.0)"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.core [585]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.common.frameworks; bundle-version="[1.1.400,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.common.frameworks; bundle-version="1.2.0.v202307260438"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.ejb; bundle-version="[1.2.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee.ejb; bundle-version="1.2.0.v202307260438"; singleton:="true"
+              org.eclipse.jst.j2ee.ejb [586]
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.2.800,1.3.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+                     org.eclipse.jst.j2ee [584]
+                       Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                         -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+                Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee.core; bundle-version="[1.1.0,2.0.0)"
+                  -> Bundle-SymbolicName: org.eclipse.jst.j2ee.core; bundle-version="1.5.0.v202307260438"; singleton:="true"
+         Unresolved requirement: Require-Bundle: org.eclipse.jst.j2ee; bundle-version="[1.1.0,2.0.0)"
+           -> Bundle-SymbolicName: org.eclipse.jst.j2ee; bundle-version="1.2.901.v202309012304"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.wst.jsdt.web.support.jsp 4 0 2024-03-25 22:59:58.780
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.wst.jsdt.web.support.jsp [646]
+  Unresolved requirement: Require-Bundle: org.eclipse.jst.jsp.ui; bundle-version="[1.2.0,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.jst.jsp.ui; bundle-version="1.3.600.v202308160453"; singleton:="true"
+       org.eclipse.jst.jsp.ui [610]
+         Unresolved requirement: Require-Bundle: org.eclipse.jdt.ui; bundle-version="[3.14.0,4.0.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2024-03-25 23:00:05.097
+!MESSAGE Unable to load class 'org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler' from bundle '142'
+!STACK 0
+java.lang.ClassNotFoundException: org.eclipse.e4.ui.workbench.renderers.swt.cocoa.CocoaUIHandler cannot be found by org.eclipse.e4.ui.workbench.renderers.swt_0.16.200.v20231030-2045
+	at org.eclipse.osgi.internal.loader.BundleLoader.generateException(BundleLoader.java:541)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:536)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:416)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.loadClass(EquinoxBundle.java:622)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:89)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:37)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application.createE4Workbench(E4Application.java:276)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:577)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-03-25 23:00:08.283
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\huang'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-03-25 23:00:20.139
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2024-03-25 23:00:20.139
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2024-03-25 23:00:20.139
+!MESSAGE Could not write metadata for '/CISC3003-SugEx02-2024JAN20'.
+!STACK 0
+java.io.FileNotFoundException: E:\Courses\CISC3003-2024\CISC3003-dc12673-2024\.metadata\.plugins\org.eclipse.core.resources\.projects\CISC3003-SugEx02-2024JAN20\.markers (The system cannot find the path specified)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:293)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:184)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(SafeFileOutputStream.java:55)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(SaveManager.java:1718)
+	at org.eclipse.core.internal.resources.SaveManager.lambda$7(SaveManager.java:1808)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.Nodes$CollectorTask.doLeaf(Nodes.java:2183)
+	at java.base/java.util.stream.Nodes$CollectorTask.doLeaf(Nodes.java:2149)
+	at java.base/java.util.stream.AbstractTask.compute(AbstractTask.java:327)
+	at java.base/java.util.concurrent.CountedCompleter.exec(CountedCompleter.java:754)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)

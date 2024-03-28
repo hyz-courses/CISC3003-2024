@@ -2,10 +2,12 @@
 <html>
 
 <head>
-
     <!-- Basics -->
     <meta charset="UTF-8">
     <title>Home</title>
+
+    <!-- Header Icon -->
+    <link rel="icon" href="/public/images/logo/logo.ico" type="image/x-icon">
 
     <!-- Style Sheets -->
     <link rel="stylesheet" href="./css/styles.css">
@@ -17,12 +19,17 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
 </head>
 
 <body>
     <!-- Header-->
     <header>
-        <div class="header-titles" onclick="toggleView()">
+        <div class="header-titles">
             <h1>Home</h1>
             <h3>About Us</h3>
         </div>
@@ -36,7 +43,6 @@
                 <li><a href="./cisc3003-PairAssgn-showcase.html">Showcase</a></li>
                 <li><a href="./cisc3003-PairAssgn-qualification.html">Qualification</a></li>
             </ul>
-
         </nav>
 
         <!-- Hamburger Button -->
@@ -48,9 +54,14 @@
 
     </header>
 
+    <!-- One Click go to top -->
+    <div class="btn-to-top hover-float" onclick="scrollToTop()">
+        <i class="fa fa-chevron-up"></i>
+    </div>
+
     <!-- Hero-->
     <div class="flex-container">
-        <section class="hero home hover-float">
+        <section class="hero home hover-float" title="View Photo Story 1">
             <div class="section-content">
                 <h3>Photo of the friends</h3>
             </div>
@@ -62,12 +73,21 @@
         <!-- Main Content FLow -->
         <div class="main-content-flow">
 
-            <!-- Section 1 -->
+            <!-- Intro HYZ -->
             <section>
                 <div class="section-content">
-                    <h3>
-                        Introduction - Huang Yanzhen
-                    </h3>
+                    <!-- Section Title-->
+                    <div class="section-title expandable">
+                        <h3>
+                            Introduction - Huang Yanzhen
+                        </h3>
+                        <div id="profile-intro-hyz-toggle">
+                            <!-- , 'fa fa-chevron-up', 'fa fa-chevron-down', 'profile-intro-hyz-toggle'-->
+                            <a onclick="toggleExpandOrHide('intro-hyz','grid', 'profile-intro-hyz-toggle')">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                        </div>
+                    </div>
 
                     <!-- Introduction and Portrait -->
                     <div class="flex-container bisec-flow img-text" id="intro-hyz">
@@ -95,12 +115,20 @@
                 </div>
             </section>
 
-            <!-- Section 2 -->
+            <!-- Intro LRX -->
             <section>
                 <div class="section-content">
-                    <h3>
-                        Introduction - Li Ruoxuan
-                    </h3>
+                    <!-- Section Title-->
+                    <div class="section-title expandable">
+                        <h3>
+                            Introduction - Li Ruoxuan
+                        </h3>
+                        <div id="profile-intro-lrx-toggle">
+                            <a onclick="toggleExpandOrHide('intro-lrx','grid', 'profile-intro-lrx-toggle')">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                        </div>
+                    </div>
 
                     <!-- Introduction and Portrait -->
                     <div class="flex-container bisec-flow img-text" id="intro-lrx">
@@ -134,7 +162,8 @@
                         the same major through our lives in the University. The individuals within the group either knew
                         each other thorough another friend, or have been taking part together in the same GE class.
                     </p>
-                    <img src="../public/images/life/friends_1.jpg" class="large-img hover-float">
+                    <img src="/public/images/life/friends_1.jpg" class="large-img hover-float previewable"
+                        title="View Photo Story 2" alt="...">
                 </div>
             </section>
 
@@ -143,11 +172,67 @@
         <!-- Sidebar Content Flow -->
         <div class="sidebar-content-flow" id="sidebar-home">
 
+            <!-- Skills -->
+            <section class="sidebar" id="our-skills-home">
+                <div class="section-content">
+                    <h3>
+                        Our Skills
+                    </h3>
+
+                    <h4>Languages</h4>
+                    <div class="language-icon-grid">
+                        <div class="hover-float" title="Python"><i class="devicon-python-plain"></i></div>
+                        <div class="hover-float" title="Java"><i class="devicon-java-plain"></i></div>
+                        <div class="hover-float" title="C++"><i class="devicon-cplusplus-plain"></i></div>
+                        <div class="hover-float" title="C"><i class="devicon-c-plain"></i></div>
+                        <div class="hover-float" title="JavaScript"><i class="devicon-javascript-plain"></i></div>
+                        <div class="hover-float" title="PHP"><i class="devicon-php-plain"></i></div>
+                        <div class="hover-float" title="C#"><i class="devicon-csharp-plain"></i></div>
+                        <div class="hover-float" title="Swift"><i class="devicon-swift-plain"></i></div>
+                        <div class="hover-float" title="TypeScript"><i class="devicon-typescript-plain"></i></div>
+                    </div>
+
+                    <h4>Scripts</h4>
+                    <div class="language-icon-grid simpl">
+                        <div class="hover-float" title="HTML5"><i class="devicon-html5-plain"></i></div>
+                        <div class="hover-float" title="CSS3"><i class="devicon-css3-plain"></i></div>
+                        <div class="hover-float" title="MySQL"><i class="devicon-mysql-plain"></i></div>
+                        <div class="hover-float" title="Markdown"><i class="devicon-markdown-plain"></i></div>
+                    </div>
+
+                    <h4>Tools & Frameworks</h4>
+                    <div class="language-icon-grid">
+                        <div class="hover-float" title="Unity"><i class="devicon-unity-plain"></i></div>
+                        <div class="hover-float" title="Axios"><i class="devicon-axios-plain"></i></div>
+                        <div class="hover-float" title="ReactJS"><i class="devicon-react-plain"></i></div>
+                        <div class="hover-float" title="NodeJS"><i class="devicon-nodejs-plain"></i></div>
+                        <div class="hover-float" title="MongoDB"><i class="devicon-mongodb-plain"></i></div>
+                        <div class="hover-float" title="Redis"><i class="devicon-redis-plain"></i></div>
+                        <div class="hover-float" title="Xcode"><i class="devicon-xcode-plain"></i></div>
+                        <div class="hover-float" title="Linux"><i class="devicon-linux-plain"></i></div>
+                        <div class="hover-float" title="JQuery"><i class="devicon-jquery-plain"></i></div>
+                        <div class="hover-float" title="Pytorch"><i class="devicon-pytorch-plain"></i></div>
+                        <div class="hover-float" title="Annaconda"><i class="devicon-anaconda-plain"></i></div>
+                        <div class="hover-float" title="LateX"><i class="devicon-latex-plain"></i></div>
+                        <div class="hover-float" title="Ubuntu"><i class="devicon-ubuntu-plain"></i></div>
+                        <div class="hover-float" title="Git"><i class="devicon-git-plain"></i></div>
+                        <div class="hover-float" title="GitHub"><i class="devicon-github-plain"></i></div>
+                        <div class="hover-float" title="GitLab"><i class="devicon-gitlab-plain"></i></div>
+                        <div class="hover-float" title="JetBrains Rider"><i class="devicon-rider-plain"></i></div>
+                        <div class="hover-float" title="VSCode"><i class="devicon-vscode-plain"></i></div>
+                        <div class="hover-float" title=".NET"><i class="devicon-dotnetcore-plain"></i></div>
+                        <div class="hover-float" title="Android Studio"><i class="devicon-androidstudio-plain"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <!-- Side Section 1 -->
             <section class="sidebar">
                 <div class="section-content">
                     <h3>
-                        Story 1
+                        <i class="fa fa-photo"></i>
+                        Photo Story 1
                     </h3>
                     <p>
                         This photo is taken with Ruoxuan's new phone. It is quite
@@ -162,11 +247,26 @@
             <section class="sidebar">
                 <div class="section-content">
                     <h3>
-                        Story 2
+                        <i class="fa fa-photo"></i>
+                        Photo Story 2
                     </h3>
                     <p>
                         This photo is taken in the MINISO store of Zhuhai, where we were celebrating Yanzhen's birthday.
                         It's been fun playing with those disney character hats and sunglasses.
+                    </p>
+                </div>
+            </section>
+
+            <!-- More on Blog Posts -->
+            <section class="sidebar">
+                <div class="section-content">
+                    <h3>
+                        <i class="fa fa-heart"></i>
+                        Want to know more about us?
+                    </h3>
+                    <p>
+                        Check out our <a href="/public/cisc3003-PairAssgn-profile.html">Profile</a> to learn more about
+                        our life and our projects.
                     </p>
                 </div>
             </section>
@@ -183,17 +283,12 @@
     <!-- Mobile Nav Menu -->
     <script src="/public/js/navMenu.js"></script>
 
-    <!-- Auto Layout -->
-    <!-- <script src="/public/js/autoLayout.js"></script> -->
+    <!-- Change Music Album -->
+    <script src="./js/interactive.js"></script>
 
-    <script>
-        content = document.querySelector('#main-flow-and-sidebar');
+    <!-- Auto Layouts -->
+    <script src="./js/autoLayout.js"></script>
 
-        function toggleView() {
-            content.classList.toggle('bisec-flow');
-        }
-
-    </script>
 </body>
 
 </html>

@@ -1,0 +1,33 @@
+/* There's a head section in each page.*/
+
+.head_section {
+    padding-top: 50-px;
+    background-attachment: fixed;
+    background-image: url("../../images/LargeImages/View.jpg");
+    background-position: center center;
+}
+
+#head_section_1 {
+    background-position: top;
+    background-size: contain;
+    background-image: url("../../images/LargeImages/View1.jpg");
+}
+
+#head_section_2 {
+    background-size: auto;
+    background-image: url("../../images/LargeImages/View2.jpg");
+}
+
+#head_section_3 {
+    background-size: cover;
+    background-image: url("../../images/LargeImages/View3.jpg");
+}
+
+#head_section_4 {
+    background-size: cover;
+    background-image: url("../../images/LargeImages/View4.jpg");
+}
+
+.head_section .placeholder {
+    height: 90px;
+}

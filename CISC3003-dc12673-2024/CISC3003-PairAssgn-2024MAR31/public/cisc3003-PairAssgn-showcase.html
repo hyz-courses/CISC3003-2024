@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basics -->
+    <meta charset="UTF-8">
+    <title>Showcase</title>
+
+    <!-- Header Icon -->
+    <link rel="icon" href="/public/images/logo/logo.ico" type="image/x-icon">
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <!-- Custom Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Header-->
+    <header>
+        <div class="header-titles">
+            <h1>Showcase</h1>
+            <h3>Our Present Works</h3>
+        </div>
+
+        <!-- Menu Items-->
+        <nav>
+            <ul id="menu-items">
+                <li><a href="./cisc3003-PairAssgn-home.html">Home</a></li>
+                <li><a href="./cisc3003-PairAssgn-profile.html">Profile</a></li>
+                <li><a href="./cisc3003-PairAssgn-summary.html">Summary</a></li>
+                <li><a href="./cisc3003-PairAssgn-showcase.html">Showcase</a></li>
+                <li><a href="./cisc3003-PairAssgn-qualification.html">Qualification</a></li>
+            </ul>
+
+        </nav>
+
+        <!-- Hamburger Button -->
+        <div class="hamburger-button" id="hamburger-button" onclick="menuToggle()">
+            <span class="top"></span>
+            <span class="mid"></span>
+            <span class="bottom"></span>
+        </div>
+
+    </header>
+
+    <!-- One Click go to top -->
+    <div class="btn-to-top hover-float" onclick="scrollToTop()">
+        <i class="fa fa-chevron-up"></i>
+    </div>
+
+
+    <!-- Main Flow and Side Bar-->
+    <div class="flex-container bisec-flow">
+        <!-- Main Content FLow -->
+        <div class="main-content-flow">
+
+            <!-- Portfolio Projects -->
+            <section id="portfolio-projects">
+                <div class="section-content">
+                    <h3>
+                        Our Portfolio Projects
+                    </h3>
+                    <div>
+                        <img src="/public/showcases/RedStore/My Screen Shots/Figure 01 - Browser Render Views (Normal)/Figure 01.01 - cisc3003-SugEx07.png"
+                            class="post-image" id="showcase-img" alt="...">
+                    </div>
+                    <br>
+                    <ul>
+                        <li>
+                            <a class="plain-anchor showcase-link"
+                                href="./showcases/RedStore/public/cisc3003-sugEx07.html" target="_blank"
+                                title="/public/showcases/RedStore/My Screen Shots/Figure 01 - Browser Render Views (Normal)/Figure 01.02 - allProducts.png">
+                                <i class="fa fa-globe"></i>
+                                <span> RedStore - An E-commerce Website for Sports Shopping</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="plain-anchor showcase-link"
+                                href="./showcases/PersonalWebsiteHuang/WebContent/cisc3003-sugex04.html" target="_blank"
+                                title="/public/showcases/PersonalWebsiteHuang/My Screen Shots/Rendered Pages/cisc3003-SugEx04.png">
+                                <i class="fa fa-globe"></i>
+                                <span> Huang Yanzhen - Perosnal Website</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Accomplishments -->
+            <section id="accomplishments">
+                <div class="section-content">
+                    <h3>
+                        Our Accomplishments
+                    </h3>
+                </div>
+            </section>
+
+            <!-- Business Offers -->
+            <section id="business-offers">
+                <div class="section-content">
+                    <h3>
+                        Our Business Offers
+                    </h3>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Sidebar Content Flow -->
+        <div class="sidebar-content-flow">
+
+            <!-- Page Outline -->
+            <section class="sidebar">
+                <div class="section-content">
+                    <h3>
+                        Page Outline
+                    </h3>
+                    <ul>
+                        <li>
+                            <a href="#portfolio-projects">
+                                <i class="fa fa-chevron-right"></i>
+                                Our Portfolio Projects
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#accomplishments">
+                                <i class="fa fa-chevron-right"></i>
+                                Our Accomplishments
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#business-offers">
+                                <i class="fa fa-chevron-right"></i>
+                                Our Business Offers
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Github Projects -->
+            <section class="sidebar">
+                <div class="section-content">
+                    <h3>
+                        Github Repos
+                    </h3>
+                    <ul>
+                        <li>
+                            <div class="icon-and-text">
+                                <a href="https://github.com/UM-ARK/ARK-ALL-Web"
+                                    title="A work-in-progress website for ARK app of UM." target="_blank">
+                                    <i class="fa fa-github"></i>
+                                    <span>ARK ALL Web</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-and-text">
+                                <a href="https://github.com/YanzhenHuang/HuangYanzhenGame"
+                                    title="A work-in-progress game project written in Unity." target="_blank">
+                                    <i class="fa fa-github"></i>
+                                    <span>Huang Yanzhen Game</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-and-text">
+                                <a href="https://github.com/YanzhenHuang/CISC3014-IR-and-WebSearch-Project"
+                                    title="A work-in-progress game project written in Unity." target="_blank">
+                                    <i class="fa fa-github"></i>
+                                    <span>A mini plot twist search engine using TF-IDF model</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Others -->
+            <section class="sidebar">
+                <div class="section-content">
+                    <h3>Something Beyond Coding...</h3>
+                    <h4> Huang Yanzhen's Design</h4>
+                    <p> Huang had been a UX designer in a small development group called ARK ALL in UM during his first
+                        year. Here's a gallery of the polymorphism icon he drew using Sketch.
+                    </p>
+                    <div id="ark-icon-gallery">
+                        <img class="hover-float"
+                            src="/public/showcases/PersonalWebsiteHuang/images/DesignIcons/Summer.png">
+                        <img class="hover-float"
+                            src="/public/showcases/PersonalWebsiteHuang/images/DesignIcons/Christmas.png">
+                        <img class="hover-float"
+                            src="/public/showcases/PersonalWebsiteHuang/images/DesignIcons/Neon Fantasy.png">
+                        <img class="hover-float"
+                            src="/public/showcases/PersonalWebsiteHuang/images/DesignIcons/Space.png">
+                        <img class="hover-float"
+                            src="/public/showcases/PersonalWebsiteHuang/images/DesignIcons/Spring.png">
+                        <img class="hover-float"
+                            src="/public/showcases/PersonalWebsiteHuang/images/DesignIcons/Sans Pixels.png">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            &copy; CISC3003 Web Programming - 2024: Pair XX DC126732 Huang Yanzhen | DC027534 Li Ruoxuan
+        </p>
+    </footer>
+
+    <!-- Mobile Nav Menu -->
+    <script src="/public/js/navMenu.js"></script>
+
+    <!-- Interactive Elements -->
+    <script src="./js/interactive.js"></script>
+
+    <!-- Auto Layouts -->
+    <script src="./js/autoLayout.js"></script>
+
+</body>
+
+</html>

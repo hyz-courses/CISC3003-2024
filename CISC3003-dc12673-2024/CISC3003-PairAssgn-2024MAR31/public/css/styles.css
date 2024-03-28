@@ -6,11 +6,15 @@ html,
 body {
     font-family: "Poppins", sans-serif;
     background-color: #fbf9f1;
-
 }
 
 h1 {
     color: #2d3839;
+}
+
+h4 {
+    margin-bottom: 0.4rem;
+    margin-top: 1rem;
 }
 
 header {
@@ -49,24 +53,43 @@ nav ul {
     /* max-height: 30px; */
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 a {
     display: inline-block;
     text-decoration: none;
     color: inherit;
-    font-weight: bold;
-    font-size: 18px;
     padding: 5px 10px;
-    border-radius: 4px;
+    border-radius: 1rem;
     transition: background-color 300ms ease-in-out;
     transition: transform 300ms ease;
-
+    /* Prevent user from selecting or dragging.*/
     user-select: none;
+    -webkit-user-drag: none;
+}
+
+a:not(.plain-anchor) {
+    /* Bold and Large anchors only.*/
+    font-weight: bold;
+    font-size: 18px;
 }
 
 a:hover {
+    /* Button "dragged-forward" feedback. */
     background-color: #2b3b3d37;
+    cursor: pointer;
     transform: scale(1.1);
 }
+
+a:active {
+    /* Button "pressed" feedback. */
+    transform: scale(0.9);
+}
+
 
 /* ====== Hamburger Button =======*/
 
@@ -105,6 +128,61 @@ a:hover {
     transform: rotate(-45deg);
 }
 
+/*========== Button to top =============*/
+.btn-to-top {
+    position: fixed;
+    display: block;
+    bottom: 2rem;
+    right: 2rem;
+
+    padding: 20px;
+    background: #fff;
+    border-radius: 100%;
+    border-color: #a8cd9f;
+    border-style: solid;
+    border-width: 0.5rem;
+
+    width: 1.5rem;
+    height: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 2px 6px #00000018;
+
+}
+
+/* ======== Other Universal Styles ========== */
+.h-btn-set {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem auto;
+}
+
+.h-btn-set.selector .unselect {
+    opacity: 0.7;
+    transform: scale(0.8);
+}
+
+.section-title.expandable a {
+    border-radius: 100%;
+}
+
+.section-title.expandable a i {
+    /* 
+        Try to align the geometric
+        center of the chevron and the circle.
+    */
+    position: relative;
+    bottom: 0.08rem;
+}
+
+.post-image.img-fix-height {
+    height: 9rem;
+    object-fit: contain;
+    object-position: center;
+}
+
 /* ========== Section Contents ==========*/
 /* Hero */
 .hero .section-content {
@@ -117,6 +195,23 @@ a:hover {
     height: 500px;
 }
 
+.hero.profile .section-content {
+    background-image: none;
+}
+
+.hero.home h3 {
+    color: #fff;
+    user-select: none;
+}
+
+/* Section title*/
+.section-title.expandable {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Conditional Tag: Element float animation on hover. */
 .hover-float {
     transition: transform 300ms ease;
 }
@@ -125,11 +220,6 @@ a:hover {
     cursor: pointer;
     box-shadow: 0 2px 6px #00000027;
     transform: scale(1.02);
-}
-
-.hero.home h3 {
-    color: #fff;
-    user-select: none;
 }
 
 /* ----- Flex Containers ----- */
@@ -144,16 +234,32 @@ a:hover {
     grid-gap: 10px;
 }
 
+.bisec-flow.even {
+    grid-template-columns: 1fr 1fr;
+}
+
+.obvious-division-h div:not(:last-child) {
+    border-right: rgba(0, 0, 0, 0.219) 1px solid;
+}
+
 /* ----- Section Content----- */
-section .section-content {
+.section-content {
     background-color: #a8cd9f;
     color: #2c4526;
     /* Above is used for tests.*/
-
+    display: block;
+    justify-content: center;
+    align-items: center;
     padding: 10px 20px;
     padding-bottom: 15px;
     margin-bottom: 10px;
     transition: scale 300ms ease;
+}
+
+.section-content p {
+    margin: 0 auto;
+    margin-top: 0.5rem;
+    margin-bottom: 0.3rem;
 }
 
 /* ----- Sidebar Content ----- */
@@ -165,11 +271,22 @@ section .section-content {
     /* float: right; */
 }
 
-/* ========== Text-Img View ==========*/
-#intro-hyz,
-#intro-lrx {
-    grid-gap: 20px;
+.sidebar ul {
+    padding: 0;
+    margin: 0;
 }
+
+.sidebar i {
+    margin-right: 5px;
+}
+
+.sidebar li a {
+    font-size: 16px;
+
+}
+
+/* ========== Text-Img View ==========*/
+
 
 .flex-container.bisec-flow.text-img {
     grid-template-columns: 3fr 1fr;
@@ -196,13 +313,175 @@ section .section-content {
     user-select: none;
 }
 
-/*======Relationships======*/
+/* ======Relationships====== */
 .large-img {
     width: 100%;
+}
+
+/*======== Icon and Text ========*/
+
+.icon-and-text i {
+    margin-right: 5px;
 }
 
 /* Footer */
 footer {
     background-color: rgb(207, 207, 207);
     padding: 10px;
+}
+
+
+
+/* ========= Profile ===========*/
+/* ---- Music Album ----*/
+.post-image {
+    width: 90%;
+    max-height: 20rem;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* ---- Blog Posts ----*/
+.blog-post {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.blog-post:not(:last-child) {
+    border-bottom-color: rgba(0, 0, 0, 0.219);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+.blog-post .blog-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-post .blog-title,
+.blog-post .comment-title {
+    display: flex;
+    align-items: last baseline;
+    gap: 10px;
+}
+
+.blog-post h4,
+.blog-post h5,
+.blog-post h6,
+.blog-post p {
+    margin: 0;
+}
+
+.blog-post .blog-header h5 {
+    opacity: 0.6;
+}
+
+.blog-post .blog-text {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.blog-post .blog-img {
+    display: grid;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    justify-content: center;
+    grid-template: repeat(3, 10rem) / repeat(3, 10rem);
+    grid-gap: 10px;
+}
+
+.blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    -webkit-user-drag: none;
+}
+
+.blog-post .blog-ops {
+    display: flex;
+    gap: 10px;
+}
+
+.blog-post .blog-comment {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.blog-post .blog-comment h6 {
+    opacity: 0.5;
+}
+
+.blog-post .blog-comment .comment-text {
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+
+/* ------- Home ------ */
+#intro-hyz,
+#intro-lrx {
+    grid-gap: 20px;
+}
+
+#our-skills-home h4 {
+    margin-top: 1rem;
+}
+
+
+.language-icon-grid {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    font-size: 2rem;
+}
+
+.language-icon-grid.simpl {
+    grid-template: 1fr / 1fr 1fr 1fr 1fr 1fr;
+}
+
+.language-icon-grid div {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.language-icon-grid i {
+    display: block;
+    margin: 5px auto;
+    border-radius: 100%;
+}
+
+/* --- Profile-Contacts --- */
+#contacts h4 {
+    margin-bottom: 5px;
+}
+
+#contacts span,
+#contacts a {
+    font-size: 0.8rem;
+}
+
+#profile-side-games li a {
+    display: block;
+}
+
+/* --- Showcase --- */
+#ark-icon-gallery {
+    margin-top: 10px;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-gap: 0.8rem;
+}
+
+#ark-icon-gallery img {
+    width: 100%;
+    border-radius: 0.8rem;
+    box-shadow: 0 2px 6px #00000018;
 }

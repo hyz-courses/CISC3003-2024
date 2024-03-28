@@ -1,10 +1,780 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+    <!-- Basics -->
+    <meta charset="UTF-8">
+    <title>Profile</title>
+
+    <!-- Header Icon -->
+    <link rel="icon" href="/public/images/logo/logo.ico" type="image/x-icon">
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <!-- Custom Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
+    <!-- Header-->
+    <header>
+        <div class="header-titles">
+            <h1>Profile</h1>
+            <h3>Our Daily Lives</h3>
+        </div>
+
+        <!-- Menu Items-->
+        <nav>
+            <ul id="menu-items">
+                <li><a href="./cisc3003-PairAssgn-home.html">Home</a></li>
+                <li><a href="./cisc3003-PairAssgn-profile.html">Profile</a></li>
+                <li><a href="./cisc3003-PairAssgn-summary.html">Summary</a></li>
+                <li><a href="./cisc3003-PairAssgn-showcase.html">Showcase</a></li>
+                <li><a href="./cisc3003-PairAssgn-qualification.html">Qualification</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hamburger Button -->
+        <div class="hamburger-button" id="hamburger-button" onclick="menuToggle()">
+            <span class="top"></span>
+            <span class="mid"></span>
+            <span class="bottom"></span>
+        </div>
+
+    </header>
+
+    <!-- One Click go to top -->
+    <div class="btn-to-top hover-float" onclick="scrollToTop()">
+        <i class="fa fa-chevron-up"></i>
+    </div>
+
+
+    <!-- Hero-->
+    <!-- <div class="flex-container">
+        <section class="hero profile">
+            <div class="section-content">
+                <p>Hero</p>
+            </div>
+        </section>
+    </div> -->
+
+    <!-- Main Flow and Side Bar-->
+    <div class="flex-container bisec-flow">
+        <!-- Main Content FLow -->
+        <div class="main-content-flow">
+
+            <!-- Values and Beliefs -->
+            <section id="values-and-beliefs">
+                <div class="section-content">
+                    <h3>
+                        Our Values & Beliefs
+                    </h3>
+                    <div class="icon-and-text">
+                        <i class="fa fa-book"></i>
+                        <span>The best way to predict the future is to invent it. </span>
+                    </div>
+                    <div class="icon-and-text">
+                        <i class="fa fa-book"></i>
+                        <span>Never let others prevent your way to success. </span>
+                    </div>
+                    <div class="icon-and-text">
+                        <i class="fa fa-book"></i>
+                        <span>Always be humble in front of your achievements.</span>
+                    </div>
+                    <div class="icon-and-text">
+                        <i class="fa fa-book"></i>
+                        <span>Move forward instead of complaining about the present. </span>
+                    </div>
+                    <div class="icon-and-text">
+                        <i class="fa fa-book"></i>
+                        <span>Don't praise the route you didn't take.</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Careeer Aspirations -->
+            <section id="career-aspirations">
+                <div class="section-content">
+                    <h3>
+                        Our Career Aspirations
+                    </h3>
+                    <div class="icon-and-text">
+                        <i class="fa fa-star"></i>
+                        <span>Always embrace new technologies and improve ourselves.</span>
+                    </div>
+                    <div class="icon-and-text">
+                        <i class="fa fa-star"></i>
+                        <span>Always seek for opportunity to expand our knowledge.</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Interests and Hobbies -->
+            <section id="interests-and-hobbies">
+                <div class="section-content">
+                    <div class="section-title expandable">
+                        <h3>
+                            Our Interests & Hobbies
+                        </h3>
+                        <div id="profile-interest-and-hobby-toggle">
+                            <a
+                                onclick="toggleExpandOrHide('interest-and-hobby-list','block', 'profile-interest-and-hobby-toggle')">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div id="interest-and-hobby-list">
+                        <!-- Listen to music -->
+                        <h4> Listening to Music </h4>
+                        <p>
+                            &emsp; We both agree that music is the best way to relax.
+                            Here are a few songs we'd like to share. Hover on the music
+                            title to preview the album art, and click to watch
+                            the music video on YouTube&trade;.
+                        </p>
+
+                        <!-- Music List and Album Cover -->
+                        <div class="bisec-flow">
+                            <!-- Music List -->
+                            <div class="music-list">
+                                <ul>
+                                    <li>
+                                        <a class="plain-anchor music-item" title="images/album/album1.png"
+                                            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                                            <div class="icon-and-text">
+                                                <i class="fa fa-play-circle"></i>
+                                                <span>Never Gonna Give You Up </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="plain-anchor music-item" title="images/album/album2.png"
+                                            href="https://www.youtube.com/watch?v=GuJUIBwdnIk" target="_blank">
+                                            <div class="icon-and-text">
+                                                <i class="fa fa-play-circle"></i>
+                                                <span>Things You Said</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="plain-anchor music-item" title="images/album/album3.png"
+                                            href="https://www.youtube.com/watch?v=PEM0Vs8jf1w" target="_blank">
+                                            <div class="icon-and-text">
+                                                <i class="fa fa-play-circle"></i>
+                                                <span>Golden Hour</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="plain-anchor music-item" title="images/album/album4.png"
+                                            href="https://www.youtube.com/watch?v=krSVSz60Lac" target="_blank">
+                                            <div class="icon-and-text">
+                                                <i class="fa fa-play-circle"></i>
+                                                <span>All My People</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="plain-anchor music-item" title="images/album/album5.png"
+                                            href="https://www.youtube.com/watch?v=fXw0jcYbqdo" target="_blank">
+                                            <div class="icon-and-text">
+                                                <i class="fa fa-play-circle"></i>
+                                                <span>Talking To The Moon</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Music Album -->
+                            <div class="music-album">
+                                <img src="images/album/album1.png" class="post-image" id="album" alt="...">
+                            </div>
+                        </div>
+
+                        <!-- Badminton -->
+                        <h4> Playing Badminton </h4>
+                        <div class="bisec-flow">
+                            <div>
+                                <p>
+                                    &emsp; Li Ruoxuan loves badminton. Here is a picture of her playing badminton in the
+                                    team of her college. <br> &emsp; She herself evaluated her performance on the field
+                                    and said, "My pace is good. But I don't play well in the backcourt and my stamina is
+                                    not good."
+                                </p>
+                            </div>
+                            <div>
+                                <img src="images/life/badminton_lrx.jpg" class="post-image hover-float previewable"
+                                    alt="...">
+                            </div>
+                        </div>
+
+                        <!-- Rainbow Six -->
+                        <h4>
+                            Playing
+                            <a class="plain-anchor" href="  https://www.ubisoft.com/en-gb/game/rainbow-six/siege"
+                                target="_blank">
+                                Rainbow Six &trade;
+                            </a>
+                        </h4>
+                        <p>
+                            &emsp; Rainbow Six &trade; is a first-person shooter video game developed by Ubisoft. It is
+                            the first installment in the Rainbow Six series. <br> &emsp; Li Ruoxuan said that it was her
+                            friend who "dragged her into the trap". Now she really enjoys playing this game. She now
+                            plays the game regularly with her friends. <br> &emsp; Below is a video clip of her glory
+                            moments in the game.
+                        </p>
+                        <video controls class="post-image" id="profile-vid-1">
+                            <source src="videos/rainbow6_lrx.mp4" type="video/mp4">
+                        </video>
+                        <div class="h-btn-set">
+                            <span>Current play speed: <span id="profile-vid-1-playspeed">1.0</span>x</span>
+                        </div>
+                        <div class="h-btn-set selector">
+                            <div>
+                                <a class="unselect"
+                                    onclick="setVideoSpeedTo('profile-vid-1',0.5,'profile-vid-1-playspeed')">0.5x</a>
+                            </div>
+                            <div>
+                                <a onclick="setVideoSpeedTo('profile-vid-1',1.0, 'profile-vid-1-playspeed')">1x</a>
+                            </div>
+                            <div>
+                                <a class="unselect"
+                                    onclick="setVideoSpeedTo('profile-vid-1',2.0, 'profile-vid-1-playspeed')">2x</a>
+                            </div>
+                        </div>
+                    </div>
+
+            </section>
+
+            <!-- Blog Posts -->
+            <section id="blog-posts">
+                <div class="section-content">
+                    <div class="section-title expandable">
+                        <h3>
+                            Our Blog Posts
+                        </h3>
+                        <div class="expand-toggle" id="profile-blog-toggle">
+                            <a onclick="toggleExpandOrHide('blog-list','block','profile-blog-toggle')">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Blog Posts-->
+                    <div class="blog-list" id="blog-list">
+                        <!-- Blog 1-->
+                        <div class="blog-post" id="profile-blogs">
+
+                            <!-- Blog Header-->
+                            <div class="blog-header">
+                                <div class="blog-title">
+                                    <h4>Hang Out!</h4>
+                                    <h5>Li Ruoxuan, 2023-01-08</h5>
+                                </div>
+                                <a class="plain-anchor">
+                                    <i class="fa fa-share"></i>
+                                </a>
+                            </div>
+
+                            <!-- Blog Text-->
+                            <div class="blog-text">
+                                <p>
+                                    &emsp; These are four photos of the friends when we hang out in Zhuhai. Our favorate
+                                    place to chill is the Beishan county within Zhuhai city, which is a small original
+                                    rural
+                                    area that's been developed into a traditional business market plaza.
+                                </p>
+                            </div>
+
+                            <!-- Blog Images-->
+                            <div class="blog-img">
+                                <img src="./images/blog/image1.jpg" alt="..." class="hover-float">
+                                <img src="./images/blog/image2.jpg" alt="..." class="hover-float">
+                                <img src="./images/blog/image3.jpg" alt="..." class="hover-float">
+                                <img src="./images/blog/image4.jpg" alt="..." class="hover-float">
+                            </div>
+
+                            <!-- Blog Operations-->
+                            <div class="blog-ops">
+                                <div>
+                                    <a><i class="fa fa-thumbs-up"></i></a>
+                                    <span>10</span>
+                                </div>
+                                <div>
+                                    <a><i class="fa fa-comment"></i></a>
+                                    <span>2</span>
+                                </div>
+                            </div>
+
+                            <!-- Blog Comments-->
+                            <div class="blog-comments">
+                                <div class="blog-comment">
+                                    <div class="comment-title">
+                                        <h5>Li Ruoxuan</h5>
+                                        <h6>2023-01-08</h6>
+                                    </div>
+                                    <div class="comment-text">
+                                        <p>
+                                            &emsp; Why do
+                                            we only post four images in this blog? Because we want to demonstrate the
+                                            autolayout of
+                                            blog images of this website. 4x4 is special!!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="blog-comment">
+                                    <div class="comment-title">
+                                        <h5>Yang Zhihan</h5>
+                                        <h6>2023-01-08</h6>
+                                    </div>
+                                    <div class="comment-text">
+                                        <p>
+                                            I want to go there too!!!!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Blog 2-->
+                        <div class="blog-post">
+
+                            <!-- Blog Header-->
+                            <div class="blog-header">
+                                <div class="blog-title">
+                                    <h4>Cats</h4>
+                                    <h5>Huang Yanzhen, 2023-01-09</h5>
+                                </div>
+                                <a class="plain-anchor">
+                                    <i class="fa fa-share"></i>
+                                </a>
+                            </div>
+
+                            <!-- Blog Text-->
+                            <div class="blog-text">
+                                <p>
+                                    &emsp; Let me introduce you to my amazing cat! This furry friend of mine brings so
+                                    much
+                                    joy and happiness into my life. With its adorable whiskers and big, expressive eyes,
+                                    it's impossible not to fall in love at first sight.
+                                </p>
+                            </div>
+
+                            <!-- Blog Images-->
+                            <div class="blog-img">
+                                <img src="./images/blog/cat1.jpg" alt="..." class="hover-float">
+                                <img src="./images/blog/cat2.jpg" alt="..." class="hover-float">
+                                <img src="./images/blog/cat3.JPG" alt="..." class="hover-float">
+                            </div>
+
+                            <!-- Blog Operations-->
+                            <div class="blog-ops">
+                                <div>
+                                    <a><i class="fa fa-thumbs-up"></i></a>
+                                    <span>10</span>
+                                </div>
+                                <div>
+                                    <a><i class="fa fa-comment"></i></a>
+                                    <span>2</span>
+                                </div>
+                            </div>
+
+                            <!-- Blog Comments-->
+                            <div class="blog-comments">
+                                <div class="blog-comment">
+                                    <div class="comment-title">
+                                        <h5>Li Ruoxuan</h5>
+                                        <h6>2023-01-09</h6>
+                                    </div>
+                                    <div class="comment-text">
+                                        <p>
+                                            &emsp; Cats are cute! In fact, they are perfect for demonstrating the blog
+                                            image
+                                            layouts when there are only 3 pictures. Instead of 4 by 4, it is more
+                                            efficient
+                                            to align it to 1 by 3.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="blog-comment">
+                                    <div class="comment-title">
+                                        <h5>Guo Pengze</h5>
+                                        <h6>2023-01-09</h6>
+                                    </div>
+                                    <div class="comment-text">
+                                        <p>
+                                            Crazy Thursday, KFC v me 50!!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Blog 3-->
+                        <div class="blog-post">
+
+                            <!-- Blog Header-->
+                            <div class="blog-header">
+                                <div class="blog-title">
+                                    <h4>How's it going?</h4>
+                                    <h5>Huang Yanzhen, 2023-01-08</h5>
+                                </div>
+                                <a class="plain-anchor">
+                                    <i class="fa fa-share"></i>
+                                </a>
+                            </div>
+
+                            <!-- Blog Text-->
+                            <div class="blog-text">
+                                <p>
+                                    &emsp; In the realm of arcade games, one skill that I've honed to perfection is my
+                                    prowess at the claw machine. With unwavering determination and a keen eye for
+                                    strategy,
+                                    I've become a force to be reckoned with in this realm of claw-grabbing delights.
+                                </p>
+                            </div>
+
+                            <!-- Blog Images-->
+                            <div class="blog-img">
+                                <img src="./images/blog/image5.jpg" alt="..." class="hover-float">
+                                <img src="./images/blog/image6.jpg" alt="..." class="hover-float">
+                                <img src="./images/blog/image7.jpeg" alt="..." class="hover-float">
+                                <img src="./images/blog/image8.jpeg" alt="..." class="hover-float">
+                                <img src="./images/blog/image9.jpeg" alt="..." class="hover-float">
+                                <img src="./images/blog/image10.png" alt="..." class="hover-float">
+                                <img src="./images/blog/image11.png" alt="..." class="hover-float">
+                                <img src="./images/blog/image12.png" alt="..." class="hover-float">
+                                <img src="./images/blog/image13.png" alt="..." class="hover-float">
+                            </div>
+
+                            <!-- Blog Operations-->
+                            <div class="blog-ops">
+                                <div>
+                                    <a><i class="fa fa-thumbs-up"></i></a>
+                                    <span>10</span>
+                                </div>
+                                <div>
+                                    <a><i class="fa fa-comment"></i></a>
+                                    <span>2</span>
+                                </div>
+                            </div>
+
+                            <!-- Blog Comments-->
+                            <div class="blog-comments">
+                                <div class="blog-comment">
+                                    <div class="comment-title">
+                                        <h5>Li Ruoxuan</h5>
+                                        <h6>2023-01-08</h6>
+                                    </div>
+                                    <div class="comment-text">
+                                        <p>
+                                            This blog demonstrates the classic 3x3 image layouts!!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="blog-comment">
+                                    <div class="comment-title">
+                                        <h5>Guo Pengze</h5>
+                                        <h6>2023-01-08</h6>
+                                    </div>
+                                    <div class="comment-text">
+                                        <p>
+                                            Happy birthday to you!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Blog 4-->
+                        <div class="blog-post">
+
+                            <!-- Blog Header-->
+                            <div class="blog-header">
+                                <div class="blog-title">
+                                    <h4>New Phone!</h4>
+                                    <h5>Li Ruoxuan, 2023-01-07</h5>
+                                </div>
+                                <a class="plain-anchor">
+                                    <i class="fa fa-share"></i>
+                                </a>
+                            </div>
+
+                            <!-- Blog Text-->
+                            <div class="blog-text">
+                                <p>
+                                    &emsp; I bought a Xiaomi 14 for myself!!!
+                                </p>
+                            </div>
+
+                            <!-- Blog Images-->
+                            <div class="blog-img">
+                                <img src="./images/life/friends_2.jpg" alt="..." class="hover-float">
+                            </div>
+
+                            <!-- Blog Operations-->
+                            <div class="blog-ops">
+                                <div>
+                                    <a><i class="fa fa-thumbs-up"></i></a>
+                                    <span>10</span>
+                                </div>
+                                <div>
+                                    <a><i class="fa fa-comment"></i></a>
+                                    <span>2</span>
+                                </div>
+                            </div>
+
+                            <!-- Blog Comments-->
+                            <div class="blog-comments">
+                                <div class="blog-comment">
+                                    <div class="comment-title">
+                                        <h5>Huang Yanzhen</h5>
+                                        <h6>2023-01-08</h6>
+                                    </div>
+                                    <div class="comment-text">
+                                        <p>
+                                            This is a great demonstration of the image layout for only 1 image.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="blog-comment">
+                                    <div class="comment-title">
+                                        <h5>Guo Pengze</h5>
+                                        <h6>2023-01-08</h6>
+                                    </div>
+                                    <div class="comment-text">
+                                        <p>
+                                            Good phone!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="blog-comment">
+                                    <div class="comment-title">
+                                        <h5>Yang Zhihan</h5>
+                                        <h6>2023-01-08</h6>
+                                    </div>
+                                    <div class="comment-text">
+                                        <p>
+                                            I want one too!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contacts -->
+            <section id="contacts">
+                <div class="section-content">
+                    <h3>
+                        Our Contacts
+                    </h3>
+                    <div class="bisec-flow even obvious-division-h">
+                        <!-- HYZ Contact -->
+                        <div class="contact-left">
+                            <h4> Huang Yanzhen </h4>
+                            <ul>
+                                <!-- Phone -->
+                                <li class="icon-and-text">
+                                    <i class="fa fa-phone"></i>
+                                    <span>+853 62375735</span>
+                                </li>
+
+                                <!-- Email-->
+                                <li class="icon-and-text">
+                                    <i class="fa fa-envelope"></i>
+                                    <a class="plain-anchor" target="_blank" href="mailto:yanzhenhuangwork@gmail.com">
+                                        yanzhenhuangwork@gmail.com
+                                    </a>
+                                </li>
+
+                                <!-- WeChat-->
+                                <li class="icon-and-text">
+                                    <i class="fa fa-wechat"></i>
+                                    <a class="plain-anchor" target="_blank" href="mailto:yanzhenhuangwork@gmail.com">
+                                        hyzJan8
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <!-- LRX Contact -->
+                        <div class="contact-right">
+                            <h4> Li Ruoxuan</h4>
+                            <ul>
+                                <!-- Phone -->
+                                <li class="icon-and-text">
+                                    <i class="fa fa-phone"></i>
+                                    <span>+853 68662815</span>
+                                </li>
+
+                                <!-- Email-->
+                                <li class="icon-and-text">
+                                    <i class="fa fa-envelope"></i>
+                                    <a class="plain-anchor" target="_blank" href="mailto:lrx083415@gmail.com">
+                                        lrx083415@gmail.com
+                                    </a>
+                                </li>
+
+                                <!-- WeChat-->
+                                <li class="icon-and-text">
+                                    <i class="fa fa-wechat"></i>
+                                    <a class="plain-anchor" target="_blank" href="mailto:yanzhenhuangwork@gmail.com">
+                                        YSXYMDYT
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Sidebar Content Flow -->
+        <div class="sidebar-content-flow">
+
+            <!-- Page Outline -->
+            <section class="sidebar">
+                <div class="section-content">
+                    <h3>
+                        Page Outline
+                    </h3>
+                    <ul>
+                        <li>
+                            <a href="#values-and-beliefs">
+                                <i class="fa fa-chevron-right"></i>
+                                Our Values & Beliefs
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#career-aspirations">
+                                <i class="fa fa-chevron-right"></i>
+                                Our Career Aspirations
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#interests-and-hobbies">
+                                <i class="fa fa-chevron-right"></i>
+                                Our Interests & Hobbies
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#blog-posts">
+                                <i class="fa fa-chevron-right"></i>
+                                Our Blog Posts
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contacts">
+                                <i class="fa fa-chevron-right"></i>
+                                Our Contacts
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="sidebar">
+                <div class="section-content">
+                    <h3>Games we play</h3>
+                    <div id="profile-side-games">
+                        <div>
+                            <img src="/public/images/gameLogos/rainbow-six.png" class="post-image img-fix-height"
+                                id="game-logo">
+                        </div>
+                        <h4>First-Person Shooting</h4>
+                        <ul>
+                            <li>
+                                <a title="/public/images/gameLogos/rainbow-six.png" class="game-item plain-anchor"
+                                    href="https://www.ubisoft.com/en-gb/game/rainbow-six/siege" target="_blank">
+                                    Rainbow Six &trade;
+                                </a>
+                            </li>
+                            <li>
+                                <a title="/public/images/gameLogos/the-finals.png" class="game-item plain-anchor"
+                                    href="https://www.reachthefinals.com/" target="_blank">
+                                    The Finals&trade;
+                                </a>
+                            </li>
+                            <li>
+                                <a title="/public/images/gameLogos/cs2.png" class="game-item plain-anchor"
+                                    href="https://www.counter-strike.net/cs2" target="_blank">
+                                    Couter Strike 2&trade;
+                                </a>
+                            </li>
+                            <li>
+                                <a title="/public/images/gameLogos/pubg.png" class="game-item plain-anchor"
+                                    href="https://pubg.com/en" target="_blank">
+                                    PUBG &trade;
+                                </a>
+                            </li>
+                        </ul>
+
+                        <h4>Moba</h4>
+                        <ul>
+                            <li>
+                                <a title="/public/images/gameLogos/lol.png" class="game-item plain-anchor"
+                                    href="https://www.leagueoflegends.com/en-gb/" target="_blank">
+                                    League of Legends &trade;
+                                </a>
+                            </li>
+                        </ul>
+
+                        <h4>Others</h4>
+                        <ul>
+                            <li>
+                                <a title="/public/images/gameLogos/need-for-speed.png" class="game-item plain-anchor"
+                                    href="https://www.ea.com/games/need-for-speed" target="_blank">
+                                    Need for Speed &trade;
+                                </a>
+                            </li>
+                            <li>
+                                <a title="/public/images/gameLogos/buckshot-roulette.png" class="game-item plain-anchor"
+                                    href="https://mikeklubnika.itch.io/buckshot-roulette" target="_blank">
+                                    Buckshot Roulette &trade;
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>
+            &copy; CISC3003 Web Programming - 2024: Pair XX DC126732 Huang Yanzhen | DC027534 Li Ruoxuan
+        </p>
+    </footer>
+
+    <!-- Mobile Nav Menu -->
+    <script src="/public/js/navMenu.js"></script>
+
+    <!-- Change Music Album -->
+    <script src="./js/interactive.js"></script>
+
+    <!-- Auto Layouts -->
+    <script src="./js/autoLayout.js"></script>
 
 </body>
+
 </html>
