@@ -8,8 +8,6 @@
         display: block;
     }
 
-
-
     nav ul {
         /* max-height: 0px; */
         display: block;
@@ -63,6 +61,8 @@
         display: block;
     }
 
-
+    .sidebar.page-outline {
+        display: none;
+    }
 
 }

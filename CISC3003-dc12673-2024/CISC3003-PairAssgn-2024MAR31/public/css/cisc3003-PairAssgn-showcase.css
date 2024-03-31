@@ -1,0 +1,13 @@
+/* Showcase */
+#ark-icon-gallery {
+    margin-top: 10px;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-gap: 0.8rem;
+}
+
+#ark-icon-gallery img {
+    width: 100%;
+    border-radius: 0.8rem;
+    box-shadow: 0 2px 6px #00000018;
+}

@@ -1,0 +1,38 @@
+/* ------- Home ------ */
+#intro-hyz,
+#intro-lrx {
+    grid-gap: 20px;
+}
+
+#our-skills-home h4 {
+    margin-top: 1rem;
+}
+
+.language-icon-grid {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    font-size: 2rem;
+}
+
+.language-icon-grid.simpl {
+    grid-template: 1fr / 1fr 1fr 1fr 1fr 1fr;
+}
+
+.language-icon-grid div {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.language-icon-grid i {
+    display: block;
+    margin: 5px auto;
+    border-radius: 100%;
+}
+
+.hero.home h3 {
+    color: #fff;
+    user-select: none;
+}
