@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DC126732 Huang Yanzhen</title>
+</head>
+<body>
+	<form method="get" action="">
+		<label for="countries">Select a country:</label>
+		<select id="countries">
+			<option value="AR">Argentina</option>
+			<option value="AT">Austria</option>
+			<option value="BE">Belgium</option>
+			<option value="CA">Canada</option>
+		</select>
+		
+		<script>
+			var countries = [
+	
+				  { code: "AR", name: "Argentina", capital: "Buenos Aires" },
+	
+				  { code: "AT", name: "Austria", capital: "Vienna" },
+	
+				  { code: "BE", name: "Belgium", capital: "Brussels" },
+	
+				  { code: "CA", name: "Canada", capital: "Ottawa" }
+	
+				 ];
+		</script>
+		
+		<div>
+			capital is <span id="capital"></span>
+		</div>
+		
+
+		
+	</form>
+</body>
+
+<script>
+let countrySelector = document.getElementById("countries");
+let capitalText = document.getElementById("capital");
+
+// Default
+capitalText.textContent = countries[0].capital;
+
+// Change
+countrySelector.addEventListener("change", function(event){
+	var selectedCountryCode = event.target.value;
+	
+	var selectedCountry = countries.find(function(country) {
+		return country.code === selectedCountryCode;
+	  });
+	
+	capitalText.textContent = selectedCountry.capital;
+})
+	 
+</script>
+</html>
